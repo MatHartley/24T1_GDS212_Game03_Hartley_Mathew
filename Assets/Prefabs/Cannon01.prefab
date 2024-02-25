@@ -155,6 +155,10 @@ MonoBehaviour:
   - {fileID: 3508972742388919991}
   firePointA: {fileID: 7095162055865439404}
   firePointB: {fileID: 7095162055865439404}
+  upgradeToTwo: 10
+  upgradeToThree: 25
+  upgradeCost: 0
+  costText: {fileID: 0}
 --- !u!1 &3870584465668912426
 GameObject:
   m_ObjectHideFlags: 0

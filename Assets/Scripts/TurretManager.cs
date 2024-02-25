@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class TurretManager : MonoBehaviour
 {
@@ -31,10 +32,11 @@ public class TurretManager : MonoBehaviour
     [SerializeField] private Transform firePointB;
     private bool swapPoint = true;
 
-    [Header("Upgrade Cost")]
+    [Header("Upgrades")]
     [SerializeField] private int upgradeToTwo;
     [SerializeField] private int upgradeToThree;
     [SerializeField] private int upgradeCost;
+    [SerializeField] private TextMeshProUGUI costText;
 
     public void Start()
     {
@@ -47,6 +49,7 @@ public class TurretManager : MonoBehaviour
         bulletPrefab = bulletSelector[0];
         cooldownTime = cooldownOne;
         upgradeCost = upgradeToTwo;
+        costText.text = upgradeCost.ToString();
 
         cooldownCount = 0;
         cooldownSlider.minValue = 0;
@@ -112,6 +115,7 @@ public class TurretManager : MonoBehaviour
                 cooldownTime = cooldownOne;
                 cooldownSlider.maxValue = cooldownTime;
                 upgradeCost = upgradeToTwo;
+                costText.text = upgradeCost.ToString();
                 break;
             case 2:
                 cooldownSlider = sliderSelector[1];
@@ -123,6 +127,7 @@ public class TurretManager : MonoBehaviour
                 cooldownTime = cooldownTwo;
                 cooldownSlider.maxValue = cooldownTime;
                 upgradeCost = upgradeToThree;
+                costText.text = upgradeCost.ToString();
                 break;
             case 3:
                 cooldownSlider = sliderSelector[2];
@@ -133,7 +138,8 @@ public class TurretManager : MonoBehaviour
                 bulletPrefab = bulletSelector[1];
                 cooldownTime = cooldownThree;
                 cooldownSlider.maxValue = cooldownTime;
-                upgradeCost = 0;
+                upgradeCost = 00;
+                costText.text = " ";
                 break;
             default:
                 cooldownSlider = sliderSelector[0];
@@ -145,6 +151,7 @@ public class TurretManager : MonoBehaviour
                 cooldownTime = cooldownOne;
                 cooldownSlider.maxValue = cooldownTime;
                 upgradeCost = upgradeToTwo;
+                costText.text = upgradeCost.ToString();
                 break;
         }
     }
