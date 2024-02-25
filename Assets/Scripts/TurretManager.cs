@@ -31,6 +31,11 @@ public class TurretManager : MonoBehaviour
     [SerializeField] private Transform firePointB;
     private bool swapPoint = true;
 
+    [Header("Upgrade Cost")]
+    [SerializeField] private int upgradeToTwo;
+    [SerializeField] private int upgradeToThree;
+    [SerializeField] private int upgradeCost;
+
     public void Start()
     {
         //set initial turret at level 1
@@ -41,6 +46,7 @@ public class TurretManager : MonoBehaviour
         firePointB = firepointSelector[0];
         bulletPrefab = bulletSelector[0];
         cooldownTime = cooldownOne;
+        upgradeCost = upgradeToTwo;
 
         cooldownCount = 0;
         cooldownSlider.minValue = 0;
@@ -51,52 +57,6 @@ public class TurretManager : MonoBehaviour
     {
         cooldownCount += Time.deltaTime;
         cooldownSlider.value = cooldownCount;
-
-        //select which slider, slider max, cooldown, firepoints, bullet prefab and sprite to use based on which turret model is used
-        switch (turretLevel)
-        {
-            case 1:
-                cooldownSlider = sliderSelector[0];
-                cooldownSlider.gameObject.SetActive(true);
-                gameObject.GetComponent<SpriteRenderer>().sprite = turretSprite[0];
-                firePointA = firepointSelector[0];
-                firePointB = firepointSelector[0];
-                bulletPrefab = bulletSelector[0];
-                cooldownTime = cooldownOne;
-                cooldownSlider.maxValue = cooldownTime;
-                break;
-            case 2:
-                cooldownSlider = sliderSelector[1];
-                cooldownSlider.gameObject.SetActive(true);
-                gameObject.GetComponent<SpriteRenderer>().sprite = turretSprite[1];
-                firePointA = firepointSelector[1];
-                firePointB = firepointSelector[2];
-                bulletPrefab = bulletSelector[0];
-                cooldownTime = cooldownTwo;
-                cooldownSlider.maxValue = cooldownTime;
-                break;
-            case 3:
-                cooldownSlider = sliderSelector[2];
-                cooldownSlider.gameObject.SetActive(true);
-                gameObject.GetComponent<SpriteRenderer>().sprite = turretSprite[2];
-                firePointA = firepointSelector[3];
-                firePointB = firepointSelector[3];
-                bulletPrefab = bulletSelector[1];
-                cooldownTime = cooldownThree;
-                cooldownSlider.maxValue = cooldownTime;
-                break;
-            default:
-                cooldownSlider = sliderSelector[0];
-                cooldownSlider.gameObject.SetActive(true);
-                gameObject.GetComponent<SpriteRenderer>().sprite = turretSprite[0];
-                firePointA = firepointSelector[0];
-                firePointB = firepointSelector[0];
-                bulletPrefab = bulletSelector[0];
-                cooldownTime = cooldownOne;
-                cooldownSlider.maxValue = cooldownTime;
-                break;
-        }
-
     }
     /// <summary>
     /// Fires the tapped/clicked on turret if the cooldown is up
@@ -126,6 +86,66 @@ public class TurretManager : MonoBehaviour
 
     public void Upgrade()
     {
+        //if(scoreManager.currentCredit > upgradeCost)
+        //{
+            turretLevel++;
+        //scoreManager.currentCredit - upgradeCost;
+        //}
 
+        if (turretLevel>3)
+        { 
+            turretLevel = 3;
+        }
+
+        cooldownSlider.gameObject.SetActive(false);
+
+        //select which slider, slider max, cooldown, firepoints, bullet prefab, sprite and upgrade cost to use based on turret level
+        switch (turretLevel)
+        {
+            case 1:
+                cooldownSlider = sliderSelector[0];
+                cooldownSlider.gameObject.SetActive(true);
+                gameObject.GetComponent<SpriteRenderer>().sprite = turretSprite[0];
+                firePointA = firepointSelector[0];
+                firePointB = firepointSelector[0];
+                bulletPrefab = bulletSelector[0];
+                cooldownTime = cooldownOne;
+                cooldownSlider.maxValue = cooldownTime;
+                upgradeCost = upgradeToTwo;
+                break;
+            case 2:
+                cooldownSlider = sliderSelector[1];
+                cooldownSlider.gameObject.SetActive(true);
+                gameObject.GetComponent<SpriteRenderer>().sprite = turretSprite[1];
+                firePointA = firepointSelector[1];
+                firePointB = firepointSelector[2];
+                bulletPrefab = bulletSelector[0];
+                cooldownTime = cooldownTwo;
+                cooldownSlider.maxValue = cooldownTime;
+                upgradeCost = upgradeToThree;
+                break;
+            case 3:
+                cooldownSlider = sliderSelector[2];
+                cooldownSlider.gameObject.SetActive(true);
+                gameObject.GetComponent<SpriteRenderer>().sprite = turretSprite[2];
+                firePointA = firepointSelector[3];
+                firePointB = firepointSelector[3];
+                bulletPrefab = bulletSelector[1];
+                cooldownTime = cooldownThree;
+                cooldownSlider.maxValue = cooldownTime;
+                upgradeCost = 0;
+                break;
+            default:
+                cooldownSlider = sliderSelector[0];
+                cooldownSlider.gameObject.SetActive(true);
+                gameObject.GetComponent<SpriteRenderer>().sprite = turretSprite[0];
+                firePointA = firepointSelector[0];
+                firePointB = firepointSelector[0];
+                bulletPrefab = bulletSelector[0];
+                cooldownTime = cooldownOne;
+                cooldownSlider.maxValue = cooldownTime;
+                upgradeCost = upgradeToTwo;
+                break;
+        }
     }
 }
