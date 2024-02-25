@@ -97,10 +97,12 @@ public class TurretManager : MonoBehaviour
                 break;
         }
 
-    //}
-
-    //void OnMouseDown()
-    //{
+    }
+    /// <summary>
+    /// Fires the tapped/clicked on turret if the cooldown is up
+    /// </summary>
+    public void Fire()
+    {
         if (cooldownCount >= cooldownTime)
         {
             Debug.Log("Firing Cannon");
@@ -120,5 +122,10 @@ public class TurretManager : MonoBehaviour
             swapPoint = !swapPoint;
             cooldownCount = 0;
         }
+    }
+
+    public void Upgrade()
+    {
+
     }
 }
