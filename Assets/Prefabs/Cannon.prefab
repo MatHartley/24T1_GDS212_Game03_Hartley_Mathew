@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6239179615285578003}
   - component: {fileID: 2960532776024222365}
+  - component: {fileID: -4057883145736692085}
   m_Layer: 0
-  m_Name: Cannon01
+  m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84,3 +85,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-4057883145736692085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3312065043287761024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 027f6d58d8325b046b2ae7790d40ce7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretLevel: 1
+  cooldownTime: 0
+  cooldownCount: 0
+  bulletPrefab: {fileID: 5268989835411073959, guid: f50a2c606ebcb484da9a7c6f90735423, type: 3}
