@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3134413240555283191}
   m_Layer: 0
   m_Name: TankLight01
-  m_TagString: Untagged
+  m_TagString: Tank
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
