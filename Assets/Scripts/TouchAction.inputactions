@@ -38,6 +38,17 @@
                 },
                 {
                     "name": "",
+                    "id": "d5e84b75-0e4c-4e1e-abda-e9eb88efd91e",
+                    "path": "<Mouse>/{PrimaryAction}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "924df2ba-a18d-4674-8267-dc392e3b4480",
                     "path": "<Touchscreen>/position",
                     "interactions": "",
