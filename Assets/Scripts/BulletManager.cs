@@ -16,7 +16,7 @@ public class BulletManager : MonoBehaviour
     {
         DealDamage(collision.gameObject);
     }
-    public void DealDamage(GameObject target)
+    private void DealDamage(GameObject target)
     {
         if (target.tag == "Bullet")
         {
@@ -26,13 +26,13 @@ public class BulletManager : MonoBehaviour
         if (target.tag == "Tank")
         {
             target.GetComponent<TankManager>().tankHealth -= bulletDamage;
-            BulletDeath();
+            bulletHealth = 0;
         }
 
         if (target.tag == "Wall")
         {
             //target.GetComponent<WallManager>().wallHealth -= bulletDamage;
-            BulletDeath();
+            bulletHealth = 0;
         }
     }
 
@@ -46,19 +46,19 @@ public class BulletManager : MonoBehaviour
     {
         if (bulletHealth <= 0)
         {
+            animator.SetBool("isDead", true);
+            timeToDeath -= Time.deltaTime;
+            GetComponent<Collider2D>().enabled = false;
+        }
+
+        if (timeToDeath <= 0)
+        {
             BulletDeath();
         }
     }
 
     private void BulletDeath()
     {
-        animator.SetBool("isDead", true);
-        timeToDeath -= Time.deltaTime;
-        GetComponent<Collider2D>().enabled = false;
-
-        if (timeToDeath <= 0)
-        {
             Destroy(this.gameObject);
-        }
     }
 }

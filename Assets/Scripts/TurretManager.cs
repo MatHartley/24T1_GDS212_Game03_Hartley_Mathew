@@ -37,6 +37,11 @@ public class TurretManager : MonoBehaviour
     [SerializeField] private int upgradeToThree;
     [SerializeField] private int upgradeCost;
     [SerializeField] private TextMeshProUGUI costText;
+    [SerializeField] private GameObject upgradeButton;
+
+    [Header("Script Reference")]
+    private ScoreManager scoreManager;
+
 
     public void Start()
     {
@@ -50,10 +55,12 @@ public class TurretManager : MonoBehaviour
         cooldownTime = cooldownOne;
         upgradeCost = upgradeToTwo;
         costText.text = upgradeCost.ToString();
+        //
 
         cooldownCount = 0;
         cooldownSlider.minValue = 0;
         cooldownSlider.maxValue = cooldownTime;
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
     }
 
     private void Update()
@@ -89,11 +96,11 @@ public class TurretManager : MonoBehaviour
 
     public void Upgrade()
     {
-        //if(scoreManager.currentCredit > upgradeCost)
-        //{
+        if (scoreManager.currentCredit >= upgradeCost)
+        {
             turretLevel++;
-        //scoreManager.currentCredit - upgradeCost;
-        //}
+            scoreManager.currentCredit -= upgradeCost;
+        }
 
         if (turretLevel>3)
         { 
@@ -116,6 +123,7 @@ public class TurretManager : MonoBehaviour
                 cooldownSlider.maxValue = cooldownTime;
                 upgradeCost = upgradeToTwo;
                 costText.text = upgradeCost.ToString();
+                upgradeButton.GetComponent<Image>().sprite = turretSprite[1];
                 break;
             case 2:
                 cooldownSlider = sliderSelector[1];
@@ -128,6 +136,7 @@ public class TurretManager : MonoBehaviour
                 cooldownSlider.maxValue = cooldownTime;
                 upgradeCost = upgradeToThree;
                 costText.text = upgradeCost.ToString();
+                upgradeButton.GetComponent<Image>().sprite = turretSprite[2];
                 break;
             case 3:
                 cooldownSlider = sliderSelector[2];
@@ -140,6 +149,7 @@ public class TurretManager : MonoBehaviour
                 cooldownSlider.maxValue = cooldownTime;
                 upgradeCost = 00;
                 costText.text = " ";
+                upgradeButton.SetActive(false);
                 break;
             default:
                 cooldownSlider = sliderSelector[0];
@@ -152,6 +162,7 @@ public class TurretManager : MonoBehaviour
                 cooldownSlider.maxValue = cooldownTime;
                 upgradeCost = upgradeToTwo;
                 costText.text = upgradeCost.ToString();
+                upgradeButton.GetComponent<Image>().sprite = turretSprite[1];
                 break;
         }
     }
