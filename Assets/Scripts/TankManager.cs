@@ -20,6 +20,7 @@ public class TankManager : MonoBehaviour
     [SerializeField] private float cooldownTime;
     [SerializeField] private float cooldownCount;
     [SerializeField] private float shotSpeed;
+    [SerializeField] private LayerMask tankMask;
     private bool swapPoint;
 
     // Start is called before the first frame update
@@ -35,7 +36,10 @@ public class TankManager : MonoBehaviour
     {
         cooldownCount += Time.deltaTime;
 
-        if (cooldownCount >= cooldownTime)
+        RaycastHit2D hit = Physics2D.Raycast(firePointA.position, Vector2.down, Mathf.Infinity, tankMask);
+        Debug.Log("RTaycast Hit");
+
+        if ((cooldownCount >= cooldownTime) && (hit.collider == null))
         {
             FireTank();
         }
@@ -44,6 +48,7 @@ public class TankManager : MonoBehaviour
         {
             TankDeath();
         }
+
     }
 
     public void FireTank()
@@ -70,7 +75,7 @@ public class TankManager : MonoBehaviour
     {
         if (collision.tag == "Tank")
         {
-            rigidBody.constraints = RigidbodyConstraints2D.FreezePositionY;
+            rigidBody.velocity = new Vector2(0, 0);
         }
         else if (collision.tag == "TankStopper")
         {
@@ -88,6 +93,8 @@ public class TankManager : MonoBehaviour
     {
         animator.SetBool("isDead", true);
         timeToDeath -= Time.deltaTime;
+        this.gameObject.GetComponent<Collider2D>().enabled = false;
+
         if (timeToDeath <= 0)
         {
             Destroy(this.gameObject);

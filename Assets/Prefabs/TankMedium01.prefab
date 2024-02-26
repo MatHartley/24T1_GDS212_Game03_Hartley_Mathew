@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 857650294509876855}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1088171198156867946}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.94, z: 0}
+  m_LocalPosition: {x: 0, y: -1.35, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44,7 +44,8 @@ GameObject:
   - component: {fileID: -8750306423701087818}
   - component: {fileID: 7900733561231709261}
   - component: {fileID: 8529752291313549653}
-  m_Layer: 0
+  - component: {fileID: 1452510350710781951}
+  m_Layer: 3
   m_Name: TankMedium01
   m_TagString: Tank
   m_Icon: {fileID: 0}
@@ -136,9 +137,13 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5268989835411073959, guid: f093ee4954f68434fae73aad4cb229cb, type: 3}
   firePointA: {fileID: 857650294509876855}
   firePointB: {fileID: 857650294509876855}
+  animator: {fileID: 1452510350710781951}
   cooldownTime: 6
   cooldownCount: 0
   shotSpeed: 3
+  tankMask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!50 &7900733561231709261
 Rigidbody2D:
   serializedVersion: 4
@@ -211,3 +216,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 3}
   m_EdgeRadius: 0
+--- !u!95 &1452510350710781951
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3602535543517515004}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1bdfc440d7a52f64b9a158c3cb017a89, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

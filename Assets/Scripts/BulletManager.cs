@@ -54,6 +54,8 @@ public class BulletManager : MonoBehaviour
     {
         animator.SetBool("isDead", true);
         timeToDeath -= Time.deltaTime;
+        GetComponent<Collider2D>().enabled = false;
+
         if (timeToDeath <= 0)
         {
             Destroy(this.gameObject);

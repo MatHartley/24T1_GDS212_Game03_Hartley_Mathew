@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: -4068295663319026516}
   - component: {fileID: 2825778961497860231}
   - component: {fileID: 1963427637179409914}
-  m_Layer: 0
+  - component: {fileID: 2723035054569677691}
+  m_Layer: 3
   m_Name: TankMedium03
   m_TagString: Tank
   m_Icon: {fileID: 0}
@@ -106,9 +107,13 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5268989835411073959, guid: f093ee4954f68434fae73aad4cb229cb, type: 3}
   firePointA: {fileID: 3138964936954774891}
   firePointB: {fileID: 766239716511601940}
+  animator: {fileID: 2723035054569677691}
   cooldownTime: 4
   cooldownCount: 0
   shotSpeed: 3
+  tankMask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!50 &2825778961497860231
 Rigidbody2D:
   serializedVersion: 4
@@ -181,6 +186,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 3}
   m_EdgeRadius: 0
+--- !u!95 &2723035054569677691
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978215051066868437}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1bdfc440d7a52f64b9a158c3cb017a89, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6355155956498110179
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,7 +216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 766239716511601940}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FirePointB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +232,7 @@ Transform:
   m_GameObject: {fileID: 6355155956498110179}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.18, y: -1, z: 0}
+  m_LocalPosition: {x: 0.18, y: -1.35, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -221,7 +247,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3138964936954774891}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FirePointA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -237,7 +263,7 @@ Transform:
   m_GameObject: {fileID: 7440583961785371565}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.18, y: -1, z: 0}
+  m_LocalPosition: {x: -0.18, y: -1.35, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

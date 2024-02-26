@@ -233,7 +233,6 @@ MonoBehaviour:
   bulletHealth: 9999
   bulletDamage: 9999
   animator: {fileID: 19780928}
-  timeToDeath: 1
 --- !u!61 &19780926
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3342,7 +3341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4841712816733386336, guid: b19a00bddc7f5404e8228169bc9a6efc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.445183
+      value: 5.58
       objectReference: {fileID: 0}
     - target: {fileID: 4841712816733386336, guid: b19a00bddc7f5404e8228169bc9a6efc, type: 3}
       propertyPath: m_LocalPosition.z
