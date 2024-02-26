@@ -7,6 +7,8 @@ public class TankManager : MonoBehaviour
     [Header("Tank Stats")]
     public int tankHealth;
     [SerializeField] private float tankSpeed;
+    [SerializeField] private int tankCredit;
+    [SerializeField] private int tankScore;
     private float timeToDeath = 1f;
 
     [Header("Tank Components")]
@@ -36,9 +38,11 @@ public class TankManager : MonoBehaviour
     {
         cooldownCount += Time.deltaTime;
 
+        //Raycast to check if there is another tank in front of them
         RaycastHit2D hit = Physics2D.Raycast(firePointA.position, Vector2.down, Mathf.Infinity, tankMask);
-        Debug.Log("RTaycast Hit");
+        //Debug.Log("Raycast Hit");
 
+        //Dont fire if the Raycast hits something
         if ((cooldownCount >= cooldownTime) && (hit.collider == null))
         {
             FireTank();
@@ -49,11 +53,12 @@ public class TankManager : MonoBehaviour
             TankDeath();
         }
 
+        rigidBody.velocity = new Vector2(0, -tankSpeed);
     }
 
     public void FireTank()
     {
-            Debug.Log("Firing Tank");
+            //Debug.Log("Firing Tank");
             GameObject shot = Instantiate(bulletPrefab) as GameObject;
 
             if (swapPoint)
@@ -71,7 +76,7 @@ public class TankManager : MonoBehaviour
             cooldownCount = 0;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.tag == "Tank")
         {
@@ -80,13 +85,6 @@ public class TankManager : MonoBehaviour
         else if (collision.tag == "TankStopper")
         {
             rigidBody.constraints = RigidbodyConstraints2D.FreezePositionY;
-        }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.tag == "Tank")
-        {
-            rigidBody.velocity = new Vector2(0, -tankSpeed);
         }
     }
     private void TankDeath()

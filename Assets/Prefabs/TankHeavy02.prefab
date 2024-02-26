@@ -133,7 +133,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tankHealth: 5
-  tankSpeed: 1
+  tankSpeed: 0.5
+  tankCredit: 8
+  tankScore: 800
   bulletPrefab: {fileID: 5268989835411073959, guid: e73455dddba7ded4f86edb324a4fd916, type: 3}
   firePointA: {fileID: 9112604276667325009}
   firePointB: {fileID: 9112604276667325009}
