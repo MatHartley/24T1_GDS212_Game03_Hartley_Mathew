@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using MathewHartley;
 
 public class WaveManager : MonoBehaviour
 {
@@ -10,16 +11,25 @@ public class WaveManager : MonoBehaviour
     [SerializeField] private int maxWave;
     [SerializeField] private float waveCooldown;
     [SerializeField] private float waveCooldownCount;
+    [SerializeField] private float cooldownToCooldown;
+    [SerializeField] private float cooldownToCooldownCount;
 
     [Header("Object References")]
     [SerializeField] private GameObject[] tankSpawns;
     [SerializeField] private TextMeshProUGUI waveNumberText;
+    [SerializeField] private GameObject wavePanel;
 
     [Header("Spawns")]
     [SerializeField] private int spawnCap;
     [SerializeField] private int spawnNumber;
     [SerializeField] private float spawnCooldown;
     [SerializeField] private float spawnCooldownCount;
+
+    [Header("Timer")]
+    public Timer countdownTimer;
+
+    [Header("Game Controller")]
+    public GameController gameController;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +38,7 @@ public class WaveManager : MonoBehaviour
         waveNumberText.text = waveNumber.ToString();
         waveCooldownCount = waveCooldown;
         spawnCooldownCount = spawnCooldown;
+        cooldownToCooldownCount = cooldownToCooldown;
         spawnNumber = 0;
         spawnCap = Mathf.RoundToInt((waveNumber * 5) / 2);
     }
@@ -37,11 +48,19 @@ public class WaveManager : MonoBehaviour
     {
         if (spawnNumber == spawnCap)
         {
-            waveCooldownCount -= Time.deltaTime;
+            cooldownToCooldownCount -= Time.deltaTime;
+
+            if (cooldownToCooldownCount <=0)
+            {
+                waveCooldownCount -= Time.deltaTime;
+                countdownTimer.isPaused = false;
+                wavePanel.SetActive(true);
+            }
         }
         else
         {
             spawnCooldownCount -= Time.deltaTime;
+            wavePanel.SetActive(false);
         }
 
         if ((spawnCooldownCount <= 0) && (spawnNumber <= spawnCap))
@@ -83,13 +102,16 @@ public class WaveManager : MonoBehaviour
             {
                 waveNumberText.text = waveNumber.ToString();
                 waveCooldownCount = waveCooldown;
+                cooldownToCooldownCount = cooldownToCooldown;
+                countdownTimer.currentTime = 10f;
+                countdownTimer.isPaused = true;
                 spawnNumber = 0;
                 spawnCooldown = spawnCooldown * 0.9f;
                 spawnCap = Mathf.RoundToInt((waveNumber * 5) / 2);
             }
             else
             {
-                //game end good
+                gameController.GoodEnd();
             }
         }
     }

@@ -24,15 +24,19 @@ public class ScoreManager : MonoBehaviour
         creditText.text = currentCredit.ToString();
     }
 
+    private void Update()
+    {
+        scoreText.text = currentScore.ToString();
+        creditText.text = currentCredit.ToString();
+    }
+
     public void UpdateScore(int addition)
     {
         currentScore += addition;
-        scoreText.text = currentScore.ToString();
     }
 
     public void UpdateCredit(int addition)
     {
         currentCredit += addition;
-        creditText.text = currentCredit.ToString();
     }
 }

@@ -11,6 +11,9 @@ public class WallManager : MonoBehaviour
     [Header("Health")]
     public int wallHealth;
 
+    [Header("Game Controller")]
+    public GameController gameController;
+
     // Update is called once per frame
     void Update()
     {
@@ -18,7 +21,7 @@ public class WallManager : MonoBehaviour
 
         if (wallHealth <= 0)
         {
-            //game end bad
+            gameController.BadEnd();
         }
     }
 }
