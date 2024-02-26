@@ -89,7 +89,7 @@ public class WaveManager : MonoBehaviour
             }
             else
             {
-                //end game
+                //game end good
             }
         }
     }
