@@ -10,7 +10,7 @@ public class BulletManager : MonoBehaviour
 
     [Header("Animation")]
     [SerializeField] private Animator animator;
-    [SerializeField] private float timeToDeath = 1f;
+    private float timeToDeath = 1f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -25,12 +25,14 @@ public class BulletManager : MonoBehaviour
 
         if (target.tag == "Tank")
         {
-            //target.GetComponent<TankManager>().tankHealth -= bulletDamage;
+            target.GetComponent<TankManager>().tankHealth -= bulletDamage;
+            BulletDeath();
         }
 
         if (target.tag == "Wall")
         {
             //target.GetComponent<WallManager>().wallHealth -= bulletDamage;
+            BulletDeath();
         }
     }
 
@@ -44,12 +46,17 @@ public class BulletManager : MonoBehaviour
     {
         if (bulletHealth <= 0)
         {
-            animator.SetBool("isDead", true);
-            timeToDeath -= Time.deltaTime;
-            if (timeToDeath <= 0)
-            {
-                Destroy(this.gameObject);
-            }
+            BulletDeath();
+        }
+    }
+
+    private void BulletDeath()
+    {
+        animator.SetBool("isDead", true);
+        timeToDeath -= Time.deltaTime;
+        if (timeToDeath <= 0)
+        {
+            Destroy(this.gameObject);
         }
     }
 }

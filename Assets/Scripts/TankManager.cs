@@ -1,0 +1,96 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TankManager : MonoBehaviour
+{
+    [Header("Tank Stats")]
+    public int tankHealth;
+    [SerializeField] private float tankSpeed;
+    private float timeToDeath = 1f;
+
+    [Header("Tank Components")]
+    [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private Transform firePointA;
+    [SerializeField] private Transform firePointB;
+    [SerializeField] private Animator animator;
+    private Rigidbody2D rigidBody;
+
+    [Header("Shooting")]
+    [SerializeField] private float cooldownTime;
+    [SerializeField] private float cooldownCount;
+    [SerializeField] private float shotSpeed;
+    private bool swapPoint;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        rigidBody = gameObject.GetComponent<Rigidbody2D>();
+        rigidBody.velocity = new Vector2(0, -tankSpeed);
+        cooldownCount = 0;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        cooldownCount += Time.deltaTime;
+
+        if (cooldownCount >= cooldownTime)
+        {
+            FireTank();
+        }
+
+        if (tankHealth <= 0)
+        {
+            TankDeath();
+        }
+    }
+
+    public void FireTank()
+    {
+            Debug.Log("Firing Tank");
+            GameObject shot = Instantiate(bulletPrefab) as GameObject;
+
+            if (swapPoint)
+            {
+                shot.transform.position = firePointA.transform.position;
+            }
+            else
+            {
+                shot.transform.position = firePointB.transform.position;
+            }
+
+            shot.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -shotSpeed);
+
+            swapPoint = !swapPoint;
+            cooldownCount = 0;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Tank")
+        {
+            rigidBody.constraints = RigidbodyConstraints2D.FreezePositionY;
+        }
+        else if (collision.tag == "TankStopper")
+        {
+            rigidBody.constraints = RigidbodyConstraints2D.FreezePositionY;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Tank")
+        {
+            rigidBody.velocity = new Vector2(0, -tankSpeed);
+        }
+    }
+    private void TankDeath()
+    {
+        animator.SetBool("isDead", true);
+        timeToDeath -= Time.deltaTime;
+        if (timeToDeath <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+}
