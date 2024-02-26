@@ -233,7 +233,6 @@ MonoBehaviour:
   bulletHealth: 9999
   bulletDamage: 9999
   animator: {fileID: 19780928}
-  timeToDeath: 1
 --- !u!61 &19780926
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8325,6 +8324,69 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c9819d14bd5feb47978578544d15a12, type: 3}
+--- !u!1 &1442756256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1442756259}
+  - component: {fileID: 1442756258}
+  m_Layer: 0
+  m_Name: WaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1442756258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442756256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be490c9afa2ce3d47bc16d56674b9b0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveNumber: 1
+  maxWave: 0
+  waveCooldown: 10
+  waveCooldownCount: 0
+  tankSpawns:
+  - {fileID: 4844363617764328873, guid: d48404336616ea448bb81f2b9ea4c311, type: 3}
+  - {fileID: 1948295081353905710, guid: d063d60518701f8479f28c8486eed20d, type: 3}
+  - {fileID: 6493424951307802036, guid: cc851b8819e65fe49a4b27699df6f42c, type: 3}
+  - {fileID: 3602535543517515004, guid: 04fa07a2b54ff0b49a418f363b56216d, type: 3}
+  - {fileID: 3974551967133411180, guid: 6ed513fc18a8e774fa12d8e6abf01d09, type: 3}
+  - {fileID: 978215051066868437, guid: 65f4c929448fc554f86eba2e544e25b2, type: 3}
+  - {fileID: 8413923585543914777, guid: b19a00bddc7f5404e8228169bc9a6efc, type: 3}
+  - {fileID: 8434163402236296958, guid: 930bcc88ca001f84ebea76f4de64739d, type: 3}
+  - {fileID: 3460680982342313110, guid: 3e364775bb43cf94c95193e1cdc64e7c, type: 3}
+  waveNumberText: {fileID: 1368516934}
+  spawnCap: 1
+  spawnNumber: 0
+  spawnCooldown: 5
+  spawnCooldownCount: 0
+--- !u!4 &1442756259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442756256}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1449447629
 GameObject:
   m_ObjectHideFlags: 0
@@ -8849,7 +8911,7 @@ GameObject:
   - component: {fileID: 1571988164}
   m_Layer: 0
   m_Name: TankStopper
-  m_TagString: Untagged
+  m_TagString: TankStopper
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11346,3 +11408,4 @@ SceneRoots:
   - {fileID: 7960430424190241089}
   - {fileID: 1442121672}
   - {fileID: 1505285383}
+  - {fileID: 1442756259}

@@ -7,11 +7,12 @@ TagManager:
   - Bullet
   - Tank
   - Wall
+  - TankStopper
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
   - 

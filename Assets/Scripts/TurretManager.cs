@@ -68,7 +68,7 @@ public class TurretManager : MonoBehaviour
     {
         if (cooldownCount >= cooldownTime)
         {
-            Debug.Log("Firing Cannon");
+            //Debug.Log("Firing Cannon");
             GameObject shot = Instantiate(bulletPrefab) as GameObject;
 
             if (swapPoint)
