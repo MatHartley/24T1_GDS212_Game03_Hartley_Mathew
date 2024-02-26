@@ -25,9 +25,13 @@ public class TankManager : MonoBehaviour
     [SerializeField] private LayerMask tankMask;
     private bool swapPoint;
 
+    [Header("Script Reference")]
+    private ScoreManager scoreManager;
+
     // Start is called before the first frame update
     void Start()
     {
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
         rigidBody.velocity = new Vector2(0, -tankSpeed);
         cooldownCount = 0;
@@ -50,14 +54,23 @@ public class TankManager : MonoBehaviour
 
         if (tankHealth <= 0)
         {
+            animator.SetBool("isDead", true);
+            this.gameObject.GetComponent<Collider2D>().enabled = false;
+            timeToDeath -= Time.deltaTime;
+        }
+
+        if (timeToDeath <= 0)
+        {
             TankDeath();
         }
 
-        rigidBody.velocity = new Vector2(0, -tankSpeed);
+            rigidBody.velocity = new Vector2(0, -tankSpeed);
     }
 
     public void FireTank()
     {
+        if (!animator.GetBool("isDead"))
+        {
             //Debug.Log("Firing Tank");
             GameObject shot = Instantiate(bulletPrefab) as GameObject;
 
@@ -74,8 +87,9 @@ public class TankManager : MonoBehaviour
 
             swapPoint = !swapPoint;
             cooldownCount = 0;
+        }
     }
-
+    
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.tag == "Tank")
@@ -89,13 +103,8 @@ public class TankManager : MonoBehaviour
     }
     private void TankDeath()
     {
-        animator.SetBool("isDead", true);
-        timeToDeath -= Time.deltaTime;
-        this.gameObject.GetComponent<Collider2D>().enabled = false;
-
-        if (timeToDeath <= 0)
-        {
+            scoreManager.UpdateScore(tankScore);
+            scoreManager.UpdateCredit(tankCredit);
             Destroy(this.gameObject);
-        }
     }
 }

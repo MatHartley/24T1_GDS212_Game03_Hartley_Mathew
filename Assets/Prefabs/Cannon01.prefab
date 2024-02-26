@@ -159,6 +159,7 @@ MonoBehaviour:
   upgradeToThree: 25
   upgradeCost: 0
   costText: {fileID: 0}
+  upgradeButton: {fileID: 0}
 --- !u!1 &3870584465668912426
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,7 +247,7 @@ Transform:
   m_GameObject: {fileID: 8315117215296830315}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.4, z: 0}
+  m_LocalPosition: {x: 0, y: 1.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
