@@ -31,7 +31,7 @@ public class BulletManager : MonoBehaviour
 
         if (target.tag == "Wall")
         {
-            //target.GetComponent<WallManager>().wallHealth -= bulletDamage;
+            GameObject.Find("GameManager").GetComponent<WallManager>().wallHealth -= bulletDamage;
             bulletHealth = 0;
         }
     }
