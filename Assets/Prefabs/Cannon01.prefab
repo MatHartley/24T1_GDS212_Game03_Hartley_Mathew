@@ -66,6 +66,7 @@ Transform:
   - {fileID: 937466922730329804}
   - {fileID: 3504742642538133690}
   - {fileID: 3508972742388919991}
+  - {fileID: 7068928071710407173}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2960532776024222365
@@ -160,6 +161,42 @@ MonoBehaviour:
   upgradeCost: 0
   costText: {fileID: 0}
   upgradeButton: {fileID: 0}
+  tankUpgradeButton: {fileID: 0}
+  tankUpgradeText: {fileID: 0}
+  tankUpgradeCost: 10
+  tankPrefab: {fileID: 1948295081353905710, guid: 1211d13a2a793694a914a6a775e28400, type: 3}
+  spawnTransform: {fileID: 7068928071710407173}
+--- !u!1 &3782742442094061053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7068928071710407173}
+  m_Layer: 0
+  m_Name: TankSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7068928071710407173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3782742442094061053}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6239179615285578003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3870584465668912426
 GameObject:
   m_ObjectHideFlags: 0

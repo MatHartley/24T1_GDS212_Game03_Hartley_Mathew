@@ -7,6 +7,7 @@ public class BulletManager : MonoBehaviour
     [Header("Bullet Stats")]
     [SerializeField] private int bulletHealth;
     [SerializeField] private int bulletDamage;
+    public bool isMovingUp;
 
     [Header("Animation")]
     [SerializeField] private Animator animator;
@@ -32,6 +33,12 @@ public class BulletManager : MonoBehaviour
         if (target.tag == "Wall")
         {
             GameObject.Find("GameManager").GetComponent<WallManager>().wallHealth -= bulletDamage;
+            bulletHealth = 0;
+        }
+
+        if (target.tag == "Turret" && !isMovingUp)
+        {
+            target.GetComponent<TankManager>().tankHealth -= bulletDamage;
             bulletHealth = 0;
         }
     }

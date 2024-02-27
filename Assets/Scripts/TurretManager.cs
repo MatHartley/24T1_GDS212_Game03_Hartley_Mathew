@@ -32,12 +32,19 @@ public class TurretManager : MonoBehaviour
     [SerializeField] private Transform firePointB;
     private bool swapPoint = true;
 
-    [Header("Upgrades")]
+    [Header("Turret Upgrades")]
     [SerializeField] private int upgradeToTwo;
     [SerializeField] private int upgradeToThree;
     [SerializeField] private int upgradeCost;
     [SerializeField] private TextMeshProUGUI costText;
     [SerializeField] private GameObject upgradeButton;
+
+    [Header("Tank Upgrades")]
+    [SerializeField] private GameObject tankUpgradeButton;
+    [SerializeField] private TextMeshProUGUI tankUpgradeText;
+    [SerializeField] private int tankUpgradeCost;
+    [SerializeField] private GameObject tankPrefab;
+    [SerializeField] private Transform spawnTransform;
 
     [Header("Script Reference")]
     private ScoreManager scoreManager;
@@ -61,6 +68,7 @@ public class TurretManager : MonoBehaviour
         cooldownSlider.minValue = 0;
         cooldownSlider.maxValue = cooldownTime;
         scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+        tankUpgradeText.text = tankUpgradeCost.ToString();
     }
 
     private void Update()
@@ -88,6 +96,7 @@ public class TurretManager : MonoBehaviour
             }
 
             shot.GetComponent<Rigidbody2D>().velocity = new Vector2(0, shotSpeed);
+            shot.GetComponent<BulletManager>().isMovingUp = true;
 
             swapPoint = !swapPoint;
             cooldownCount = 0;
@@ -102,8 +111,8 @@ public class TurretManager : MonoBehaviour
             scoreManager.currentCredit -= upgradeCost;
         }
 
-        if (turretLevel>3)
-        { 
+        if (turretLevel > 3)
+        {
             turretLevel = 3;
         }
 
@@ -165,5 +174,17 @@ public class TurretManager : MonoBehaviour
                 upgradeButton.GetComponent<Image>().sprite = turretSprite[1];
                 break;
         }
+    }
+
+    public void SpawnTank()
+    {
+        if (scoreManager.currentCredit >= tankUpgradeCost)
+        {
+            scoreManager.currentCredit -= tankUpgradeCost;
+            GameObject spawn = Instantiate(tankPrefab) as GameObject;
+            spawn.transform.position = spawnTransform.position;
+            tankUpgradeButton.SetActive(false);
+        }
+
     }
 }

@@ -103,7 +103,7 @@ public class WaveManager : MonoBehaviour
                 waveNumberText.text = waveNumber.ToString();
                 waveCooldownCount = waveCooldown;
                 cooldownToCooldownCount = cooldownToCooldown;
-                countdownTimer.currentTime = 10f;
+                countdownTimer.currentTime = waveCooldown;
                 countdownTimer.isPaused = true;
                 spawnNumber = 0;
                 spawnCooldown = spawnCooldown * 0.9f;

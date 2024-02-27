@@ -6,6 +6,7 @@ public class TankManager : MonoBehaviour
 {
     [Header("Tank Stats")]
     public int tankHealth;
+    [SerializeField] private bool isStatic;
     [SerializeField] private float tankSpeed;
     [SerializeField] private int tankCredit;
     [SerializeField] private int tankScore;
@@ -64,7 +65,10 @@ public class TankManager : MonoBehaviour
             TankDeath();
         }
 
+        if (!isStatic)
+        {
             rigidBody.velocity = new Vector2(0, -tankSpeed);
+        }
     }
 
     public void FireTank()
@@ -83,7 +87,14 @@ public class TankManager : MonoBehaviour
                 shot.transform.position = firePointB.transform.position;
             }
 
-            shot.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -shotSpeed);
+            if (!isStatic)
+            {
+                shot.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -shotSpeed);
+            }
+            else 
+            {
+                shot.GetComponent<Rigidbody2D>().velocity = new Vector2(0, shotSpeed);
+            }
 
             swapPoint = !swapPoint;
             cooldownCount = 0;
