@@ -32,6 +32,9 @@ public class WaveManager : MonoBehaviour
     [Header("Game Controller")]
     public GameController gameController;
 
+    [Header("SFX")]
+    [SerializeField] private AudioSource waveAlarmSFX;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +45,8 @@ public class WaveManager : MonoBehaviour
         cooldownToCooldownCount = cooldownToCooldown;
         spawnNumber = 0;
         spawnCap = Mathf.RoundToInt((waveNumber * 5) / 2);
+
+        waveAlarmSFX = GameObject.Find("WaveAlarmSFX").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -53,6 +58,7 @@ public class WaveManager : MonoBehaviour
 
             if (cooldownToCooldownCount <=0)
             {
+                waveAlarmSFX.Play();
                 waveCooldownCount -= Time.deltaTime;
                 countdownTimer.isPaused = false;
                 wavePanel.SetActive(true);

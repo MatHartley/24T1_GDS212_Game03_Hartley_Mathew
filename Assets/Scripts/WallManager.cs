@@ -7,6 +7,7 @@ public class WallManager : MonoBehaviour
 {
     [Header("UI Reference")]
     public Slider healthSlider;
+    [SerializeField] private GameObject cooldownSliderHolder;
 
     [Header("Health")]
     public int wallHealth;
@@ -21,6 +22,7 @@ public class WallManager : MonoBehaviour
 
         if (wallHealth <= 0)
         {
+            cooldownSliderHolder.SetActive(false);
             gameController.BadEnd();
         }
     }

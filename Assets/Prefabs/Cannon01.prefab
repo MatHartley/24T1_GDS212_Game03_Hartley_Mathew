@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 6239179615285578003}
   - component: {fileID: 2960532776024222365}
   - component: {fileID: -4057883145736692085}
+  - component: {fileID: 4040101752683209425}
   m_Layer: 0
   m_Name: Cannon01
   m_TagString: Player
@@ -140,6 +141,7 @@ MonoBehaviour:
   cooldownCount: 0
   sliderSelector: []
   cooldownSlider: {fileID: 0}
+  timeToDeath: 1
   bulletSelector:
   - {fileID: 5268989835411073959, guid: f50a2c606ebcb484da9a7c6f90735423, type: 3}
   - {fileID: 5268989835411073959, guid: 17eedd41bf7b00a4788839629519bdea, type: 3}
@@ -166,6 +168,31 @@ MonoBehaviour:
   tankUpgradeCost: 10
   tankPrefab: {fileID: 1948295081353905710, guid: 1211d13a2a793694a914a6a775e28400, type: 3}
   spawnTransform: {fileID: 7068928071710407173}
+  animator: {fileID: 0}
+  turretShootSFX: {fileID: 0}
+  turretUpgradeSFX: {fileID: 0}
+  miniTankSpawnSFX: {fileID: 0}
+--- !u!95 &4040101752683209425
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3312065043287761024}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5e0c56323efdcc0489e5aad38ef4446a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3782742442094061053
 GameObject:
   m_ObjectHideFlags: 0

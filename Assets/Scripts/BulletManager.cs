@@ -8,10 +8,10 @@ public class BulletManager : MonoBehaviour
     [SerializeField] private int bulletHealth;
     [SerializeField] private int bulletDamage;
     public bool isMovingUp;
+    private bool bulletDying = false;
 
     [Header("Animation")]
     [SerializeField] private Animator animator;
-    private float timeToDeath = 1f;
 
     [Header("SFX")]
     [SerializeField] private AudioSource bulletPopSFX;
@@ -56,22 +56,18 @@ public class BulletManager : MonoBehaviour
 
     private void Update()
     {
-        if (bulletHealth <= 0)
-        {
-            bulletPopSFX.Play();
-            animator.SetBool("isDead", true);
-            timeToDeath -= Time.deltaTime;
-            GetComponent<Collider2D>().enabled = false;
-        }
-
-        if (timeToDeath <= 0)
+        if (bulletHealth <= 0 && !bulletDying)
         {
             BulletDeath();
+            bulletDying = true;
         }
     }
 
     private void BulletDeath()
     {
-            Destroy(this.gameObject);
+        bulletPopSFX.Play();
+        animator.SetBool("isDead", true);
+        GetComponent<Collider2D>().enabled = false;
+        Destroy(this.gameObject, 1);
     }
 }

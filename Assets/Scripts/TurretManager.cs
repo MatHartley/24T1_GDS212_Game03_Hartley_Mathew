@@ -17,6 +17,8 @@ public class TurretManager : MonoBehaviour
     [SerializeField] private float cooldownCount;
     [SerializeField] Slider[] sliderSelector;
     public Slider cooldownSlider;
+    [SerializeField] private float timeToDeath;
+    private bool isDying = false;
 
     [Header("Bullet Prefabs")]
     [SerializeField] private GameObject[] bulletSelector;
@@ -48,11 +50,16 @@ public class TurretManager : MonoBehaviour
 
     [Header("Script Reference")]
     private ScoreManager scoreManager;
+    private WallManager wallManager;
+
+    [Header("Animator")]
+    [SerializeField] private Animator animator;
 
     [Header("SFX")]
     [SerializeField] private AudioSource turretShootSFX;
     [SerializeField] private AudioSource turretUpgradeSFX;
     [SerializeField] private AudioSource miniTankSpawnSFX;
+    [SerializeField] private AudioSource turretDeathSFX;
 
     public void Start()
     {
@@ -72,17 +79,31 @@ public class TurretManager : MonoBehaviour
         cooldownSlider.minValue = 0;
         cooldownSlider.maxValue = cooldownTime;
         scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+        wallManager = GameObject.Find("GameManager").GetComponent<WallManager>();
         tankUpgradeText.text = tankUpgradeCost.ToString();
+        animator = GetComponent<Animator>();
 
         turretShootSFX = GameObject.Find("TurretShootSFX").GetComponent<AudioSource>();
         turretUpgradeSFX = GameObject.Find("TurretUpgradeSFX").GetComponent<AudioSource>();
         miniTankSpawnSFX = GameObject.Find("MiniTankSpawnSFX").GetComponent<AudioSource>();
+        turretDeathSFX = GameObject.Find("TurretDeathSFX").GetComponent<AudioSource>();
     }
 
     private void Update()
     {
         cooldownCount += Time.deltaTime;
         cooldownSlider.value = cooldownCount;
+
+        if (wallManager.wallHealth <= 0 && !isDying)
+        {
+            turretDeathSFX.Play();
+            isDying = true;
+        }
+
+        if (isDying)
+        {
+            TurretDeath();
+        }
     }
     /// <summary>
     /// Fires the tapped/clicked on turret if the cooldown is up
@@ -196,6 +217,16 @@ public class TurretManager : MonoBehaviour
             spawn.transform.position = spawnTransform.position;
             tankUpgradeButton.SetActive(false);
         }
+    }
 
+    void TurretDeath()
+    {
+        timeToDeath -= Time.unscaledDeltaTime;
+        animator.SetBool("isDead", true);
+
+        if (timeToDeath <= 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

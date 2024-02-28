@@ -10,8 +10,7 @@ public class TankManager : MonoBehaviour
     [SerializeField] private float tankSpeed;
     [SerializeField] private int tankCredit;
     [SerializeField] private int tankScore;
-    private float timeToDeath = 1f;
-
+    private bool tankDying = false;
 
     [Header("Tank Components")]
     [SerializeField] private GameObject bulletPrefab;
@@ -43,7 +42,6 @@ public class TankManager : MonoBehaviour
         rigidBody.velocity = new Vector2(0, -tankSpeed);
         cooldownCount = 0;
 
-        tankMoveSFX = GameObject.Find("TankMoveSFX").GetComponent<AudioSource>();
         tankShootSFX = GameObject.Find("TankShootSFX").GetComponent<AudioSource>();
         tankDeathSFX = GameObject.Find("TankDeathSFX").GetComponent<AudioSource>();
 
@@ -65,24 +63,22 @@ public class TankManager : MonoBehaviour
             FireTank();
         }
 
-        if (tankHealth <= 0)
-        {
-            tankDeathSFX.Play();
-            tankMoveSFX.Stop();
-            animator.SetBool("isDead", true);
-            this.gameObject.GetComponent<Collider2D>().enabled = false;
-            timeToDeath -= Time.deltaTime;
-        }
-
-        if (timeToDeath <= 0)
+        if (tankHealth <= 0 && !tankDying)
         {
             TankDeath();
+            tankDying = true;
         }
 
         if (!isStatic)
         {
             rigidBody.velocity = new Vector2(0, -tankSpeed);
         }
+
+        if (Time.timeScale == 0f)
+        {
+            tankMoveSFX.Stop();
+        }
+
     }
 
     public void FireTank()
@@ -124,16 +120,25 @@ public class TankManager : MonoBehaviour
             {
                 tankSpeed = collision.GetComponent<TankManager>().tankSpeed;
             }
+            else if (collision.GetComponent<TankManager>().tankSpeed == tankSpeed)
+            {
+                rigidBody.constraints = RigidbodyConstraints2D.FreezePositionY;
+            }
         }
         else if (collision.tag == "TankStopper")
         {
             rigidBody.constraints = RigidbodyConstraints2D.FreezePositionY;
+            tankMoveSFX.Stop();
         }
     }
     private void TankDeath()
     {
         scoreManager.UpdateScore(tankScore);
         scoreManager.UpdateCredit(tankCredit);
-        Destroy(this.gameObject);
+        tankDeathSFX.Play();
+        tankMoveSFX.Stop();
+        animator.SetBool("isDead", true);
+        this.gameObject.GetComponent<Collider2D>().enabled = false;
+        Destroy(this.gameObject, 1);
     }
 }

@@ -164,7 +164,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletHealth: 1
   bulletDamage: 1
+  isMovingUp: 0
   animator: {fileID: -3242116684080524113}
+  bulletPopSFX: {fileID: 0}
 --- !u!95 &-3242116684080524113
 Animator:
   serializedVersion: 5
