@@ -12,6 +12,7 @@ public class TankManager : MonoBehaviour
     [SerializeField] private int tankScore;
     private float timeToDeath = 1f;
 
+
     [Header("Tank Components")]
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform firePointA;
@@ -26,6 +27,11 @@ public class TankManager : MonoBehaviour
     [SerializeField] private LayerMask tankMask;
     private bool swapPoint;
 
+    [Header("SFX")]
+    [SerializeField] private AudioSource tankMoveSFX;
+    [SerializeField] private AudioSource tankShootSFX;
+    [SerializeField] private AudioSource tankDeathSFX;
+
     [Header("Script Reference")]
     private ScoreManager scoreManager;
 
@@ -36,6 +42,12 @@ public class TankManager : MonoBehaviour
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
         rigidBody.velocity = new Vector2(0, -tankSpeed);
         cooldownCount = 0;
+
+        tankMoveSFX = GameObject.Find("TankMoveSFX").GetComponent<AudioSource>();
+        tankShootSFX = GameObject.Find("TankShootSFX").GetComponent<AudioSource>();
+        tankDeathSFX = GameObject.Find("TankDeathSFX").GetComponent<AudioSource>();
+
+        tankMoveSFX.Play();
     }
 
     // Update is called once per frame
@@ -55,6 +67,8 @@ public class TankManager : MonoBehaviour
 
         if (tankHealth <= 0)
         {
+            tankDeathSFX.Play();
+            tankMoveSFX.Stop();
             animator.SetBool("isDead", true);
             this.gameObject.GetComponent<Collider2D>().enabled = false;
             timeToDeath -= Time.deltaTime;
@@ -77,6 +91,7 @@ public class TankManager : MonoBehaviour
         {
             //Debug.Log("Firing Tank");
             GameObject shot = Instantiate(bulletPrefab) as GameObject;
+            tankShootSFX.Play();
 
             if (swapPoint)
             {
@@ -101,11 +116,14 @@ public class TankManager : MonoBehaviour
         }
     }
     
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Tank")
         {
-            rigidBody.velocity = new Vector2(0, 0);
+            if (collision.GetComponent<TankManager>().tankSpeed < tankSpeed)
+            {
+                tankSpeed = collision.GetComponent<TankManager>().tankSpeed;
+            }
         }
         else if (collision.tag == "TankStopper")
         {
@@ -114,8 +132,8 @@ public class TankManager : MonoBehaviour
     }
     private void TankDeath()
     {
-            scoreManager.UpdateScore(tankScore);
-            scoreManager.UpdateCredit(tankCredit);
-            Destroy(this.gameObject);
+        scoreManager.UpdateScore(tankScore);
+        scoreManager.UpdateCredit(tankCredit);
+        Destroy(this.gameObject);
     }
 }

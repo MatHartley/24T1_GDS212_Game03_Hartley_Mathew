@@ -1,0 +1,7461 @@
+fileFormatVersion: 2
+guid: e17f1836a46fdb74393dcde4273f0ff5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: icons basic vectors_0
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1456
+        width: 553
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84aa59be8e71754f85b56e0a1dc9ef7
+      internalID: -1713605007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1356
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0ef3fea8e79614e9a799bd0e7fe4e3
+      internalID: -1203702446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1356
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba1802d87be85a48acecf37da82f7b2
+      internalID: 514766968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1356
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef42a3e87835f94b8a908cfb2b2cfbf
+      internalID: 1448090874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_4
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1356
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12f5d9dff8507b4eaed614070efd6cb
+      internalID: 1293010353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_5
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1356
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3409dcfcae557b468d6d053380fe1cd
+      internalID: -183144467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_6
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1356
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46622c1753921140828d2a4fe0fcaca
+      internalID: 812662054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_7
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1359
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9d542b0e0a79445a9ded3cfec2a5a6
+      internalID: 1106062197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_8
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1356
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05f28124cd97374fbdb0a52fea3ec1d
+      internalID: -255395566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_9
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1356
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9487bc47dfb74a43b9020cd50a19913
+      internalID: -1683091042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_10
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1356
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005cbb2ec8d74054587a9dc0db66ecaf
+      internalID: -8363528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_11
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1356
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68be724527a1c2d48859ad7b9c7caea5
+      internalID: -1476605955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_12
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1356
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42259215e12dff34dbd5add7f6577336
+      internalID: 689455388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_13
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1356
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0184bde5f745b4f82dc83a0c360aea
+      internalID: -1069411689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_14
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1356
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5405ed18a1e0145aa37ae5f6f49b5e
+      internalID: -1090347795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_15
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1356
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007e330c1067b594db6f2b9e1ae4da8d
+      internalID: -1141868335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_16
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1359
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad81667980179548b3082202e47c90e
+      internalID: -139407505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_17
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1356
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2163c056270c9348910dee0e31647e2
+      internalID: 628528508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_18
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1359
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f777cd99397c26498a002de26dbdd59
+      internalID: 417878454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_19
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1356
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5049c76c1fbd0834198b702e61ecb6f6
+      internalID: -2010244869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_20
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1356
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f5d48d9c0c599449f685de8cbc128c
+      internalID: 1910116324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_21
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1274
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff6d21647338364286fb4ff976479e9
+      internalID: -1837580932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_22
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1272
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fbbc1f673143d49835f8ae56dfccdb
+      internalID: 918287489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_23
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1274
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af67e970ff102814b85237aa9c9f03fa
+      internalID: -440077901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_24
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1272
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549b1ca60b1894d4e98fcc13ae0beb12
+      internalID: -737248275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_25
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1274
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c7a6cd12a529242b9e104e113b9910
+      internalID: -1706177145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_26
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1274
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6091f3851c3538a43a1707633616a1ee
+      internalID: -1063162237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_27
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1272
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b7311bcccf13c478a01d6c4e6f4ff3
+      internalID: -2046612858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_28
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1274
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eaaa27dfa8b7844f9ed499a4af70e96
+      internalID: 1303070317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_29
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1272
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf0b6908f5fbc643909273320364b75
+      internalID: -1323702375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_30
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1272
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f82d683fd344d84d913851689b412a0
+      internalID: 670887971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_31
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1272
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f077aa290669f854bb4f14abb511182d
+      internalID: -332804713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_32
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1272
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28eb3d4b4e3cf374e9c71918945d7f91
+      internalID: 497873617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_33
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1272
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6817d8bc30c2941ba3cf84f9166cbc
+      internalID: 1963476393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_34
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1274
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc911c9bbcfc8714fbd455ca3c95eac5
+      internalID: -2002235902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_35
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1272
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122c4f037b20b3d4f815c1b5a738687a
+      internalID: -7998653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_36
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1272
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d511c03553b25a4685fb56b3b8062af
+      internalID: 545725369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_37
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1274
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be77f48b20046341ad6ca21d484d61f
+      internalID: 1261337405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_38
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1272
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35616091b1f3d8f41a89622f14bfa537
+      internalID: -1159662408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_39
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1274
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49040b73a37c15d4e9b134e10e25cd01
+      internalID: -1569388744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_40
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1272
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e7399cf67c2ad4aa9bca4e111cfdd7
+      internalID: 372207098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_41
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1189
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756d0516c65e4ef4e9c1c2413506a162
+      internalID: -1529844782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_42
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1189
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad0ddc204910c045a51668d96db26be
+      internalID: 1892989626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_43
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1189
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c279225c259457438d53b9dfd153ba1
+      internalID: 2107015980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_44
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1189
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1769158852f4f544bb1d95a420cea83a
+      internalID: 637799717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_45
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1188
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bd672ca91c2274cbb076a82465713d
+      internalID: 1431022403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_46
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1189
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebf3e3585d8234419b5133b6f62c294
+      internalID: 1740274773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_47
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1189
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379918dd12126d041aa6156ccdf00bae
+      internalID: 2092922511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_48
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1188
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848425197fa01b046ab28945fcbf5cd1
+      internalID: 29199678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_49
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1188
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498f51dae12049c4fac7adb3cd6c3458
+      internalID: -1486160891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_50
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1188
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e56f6f555f444b468a9b09268a0cce1
+      internalID: -1138744248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_51
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1188
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d61879c396ead438b2b4356195c1c2
+      internalID: -1576252281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_52
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1189
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43406cb92c62f2b4592297b2ede34dec
+      internalID: -2030047967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_53
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1188
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cb70c48901a20419e2ffc91dc61efe
+      internalID: 273367947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_54
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1188
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44423938c2001e5469063a2fc44362ce
+      internalID: -1102968230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_55
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1188
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9e44cf7cd19b643ac85c82fbe5b4b6
+      internalID: 1836558494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_56
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1188
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678b51832827f954ebafdae1ece885ab
+      internalID: 305298308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_57
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1189
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce9fb49b5e3a934f81789c14da0daf6
+      internalID: -133719512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_58
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1189
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4d3c88a6389244d8b2deea76521c0e
+      internalID: 2123513365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_59
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1189
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977e27d81c49bc34c85b0c54b4bd8577
+      internalID: -863678221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_60
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1188
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3bdbb0a3a4c7f45823489ab7996473
+      internalID: 691900579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_61
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1103
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7868239fe5fdaf545942e2a2208f6c98
+      internalID: 1898312006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_62
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1103
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf194fcb2e4b8f48857dc0a9b6b4ed3
+      internalID: -975466704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_63
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1103
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb8df402344fe741933b08be4499670
+      internalID: 989346016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_64
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1103
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ee91903d9114b44911cee3873c4fe1
+      internalID: -107286116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_65
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1103
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee45f3645e4e8324a8ffb40a37fb6427
+      internalID: 915918154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_66
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1103
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e7d9def305c11428c85707e11cd7ae
+      internalID: -108015371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_67
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1103
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3621d14d055eed645a9fcac21142c8e7
+      internalID: 824769895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_68
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1103
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148baa9e45c3cab428c2f4436ed66930
+      internalID: 339045501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_69
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1103
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5251eba9ea305447b5151e9332b6cef
+      internalID: -213493747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_70
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1103
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c635966105dfb3f4984d0f6bf779481c
+      internalID: 492600526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_71
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1103
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430d201794714a749a65b6ad9e6bab08
+      internalID: -1272849591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_72
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1103
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3e176095f7f084fb0f5e31ea538cbf
+      internalID: -1345702827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_73
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1103
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edab91cde8fb37648a05569aa727fb0c
+      internalID: -653876230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_74
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1103
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57007b9de26d014c91ff028f14e2f3d
+      internalID: -857238291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_75
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1103
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2ee1a20319ae540a1e1f334d2449e8
+      internalID: -1912867821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_76
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1103
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4c978eb915a754496c86574ee1ccb7
+      internalID: 1977405462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_77
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1103
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b8b1d21c5bb914cbc25063e0d85b91
+      internalID: -793229927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_78
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1103
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f423c42066b744da90710c6067a7fb
+      internalID: -1712400555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_79
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1103
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac729e253428e634688b011efc1c8744
+      internalID: -785044032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_80
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1103
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacc28419808be049965f26c4b7e541f
+      internalID: 1330480319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_81
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1018
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87af83c4bf7329468b90d2644607576
+      internalID: 534801192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_82
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1018
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890e728f743ab3446838ccfc40eba1bc
+      internalID: -448547339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_83
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1018
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e3d27671cc550429e9fdd8ee637e3f
+      internalID: 692151110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_84
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1018
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77ba390366a570479b9b2a4217d7de5
+      internalID: -1712365424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_85
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1018
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a397dd71f0499d94b8dbb5c905728365
+      internalID: -503244806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_86
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1018
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603d874833d0f354ea3e34d4dd05a71d
+      internalID: 208485718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_87
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1018
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71778964f66552a49870f14a444f529d
+      internalID: -860457571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_88
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1018
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93921ae8868f6b4b95f70d2091d0473
+      internalID: 2054209406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_89
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1018
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a58a5a6a918fa4d909a0eb7aabcfc8
+      internalID: 2077610909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_90
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1018
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefa9321c7a3d0442a9c13d88d2ceb02
+      internalID: -752983198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_91
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1018
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0d830bc1c18f048bfe83d30b44d134
+      internalID: 265617898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_92
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1018
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288db8c6886eff3458b526dbbbfcfe73
+      internalID: -1365091688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_93
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1018
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3c0bd22edaa9e4ab28218773f394b7
+      internalID: -531693194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_94
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1018
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423fbc3dd82015d47a7bff940bdbad7a
+      internalID: 1501980042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_95
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1018
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63efbae2481599846a9a09d4ca648a55
+      internalID: -1702777624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_96
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1018
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0012188d4f2494eae7b4f3278990d8
+      internalID: 478143887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_97
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1018
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7edbecabe074b43bef7e895f3cbcb3
+      internalID: 2063676844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_98
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1018
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0726b2fdd36194d4f804aa2589a998ff
+      internalID: -1423736970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_99
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1018
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224da3900e67d0c4d9251b16d6ec0bca
+      internalID: 473088046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_100
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1018
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e274930d65c23784fb6630f903358fad
+      internalID: -1765332221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_101
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 933
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e180deb11f13b4e98e1aaa334cf35a
+      internalID: -49153164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_102
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 932
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244b27027a6b1054486775159d4ab267
+      internalID: 1453290592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_103
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 932
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b9112b66a581149969bf48cc7eaabc
+      internalID: -186062564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_104
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 933
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca06da84aac6f6c41bcc821b80c139d3
+      internalID: -790558869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_105
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 932
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9620eae058f6e174fb703d730d2c9209
+      internalID: 54325683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_106
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 932
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924d496489edf594c9b7c68e9c43b129
+      internalID: 499933816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_107
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 932
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7028729c8a91c714ca2826cc6ebc7c5a
+      internalID: 348287449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_108
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 932
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1b4fbd5f557bd46bbf12dc5ed8bd00
+      internalID: -1601516740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_109
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 930
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc65720dc58559d45857ecd5f36e38e4
+      internalID: 1989840097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_110
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 932
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcae337a1f72e48409725dd5e56d21ae
+      internalID: -800299936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_111
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 932
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403b5158791ea74419a4431a17223500
+      internalID: -891568849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_112
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 932
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb045e1d653e33945b9601f96234b92a
+      internalID: 774847010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_113
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 932
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3b94aada1b523499f0ea6f36013384
+      internalID: -1992572359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_114
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 932
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d108713753cf046baa6d32b566b065
+      internalID: 1435506760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_115
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 930
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d14b6bb4bc0194aacfd48546f84f05
+      internalID: 1632272897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_116
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 932
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1605ec517b38a6b4f8658b2412d94aa4
+      internalID: -1769830056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_117
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 932
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9efec96d7d5be441817565eddf82b1d
+      internalID: -1934399380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_118
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 932
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51827078152812542be6acca5f24491f
+      internalID: 1035391807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_119
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 930
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e2c6072b7e9f24c9825852780cf4fb
+      internalID: 254474203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_120
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 932
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319b97a6f6cd126409304b29fc3e0365
+      internalID: 1656467271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_121
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 846
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c637e586ef1977e4a9a6f22ec27405fa
+      internalID: 1625262380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_122
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 847
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5865da2b3adc3dc49af0039405e00cb4
+      internalID: -992168601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_123
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 847
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a467f9032f2af9498074cd7c8c71b60
+      internalID: -730968938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_124
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 846
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5968cf36080b5648918c9dc59a8a8c2
+      internalID: 1300708154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_125
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 847
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cca1a71b29f1ee4f94dc4d61c2cbcd1
+      internalID: 843801117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_126
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 847
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c34e91d006243a4ab9bd307ed0a117a
+      internalID: 1895015957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_127
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 847
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610cb157fd30fc249a46541f7a44e04b
+      internalID: -1841043149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_128
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 846
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296b9d02b64498d43af649823f523981
+      internalID: -1954390875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_129
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 846
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dea551b2705600478baa2434a6c770f
+      internalID: -1875461648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_130
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 847
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186a3fa0cf7e1074c8350fea294138f0
+      internalID: 110595183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_131
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 847
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1bd498e5abeb74fb8260b59ed83d07
+      internalID: 173754643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_132
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 847
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a578192b10539240adaeaee793a51b4
+      internalID: 28036951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_133
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 847
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15dfa946ffb39274689c64b3d74dc74c
+      internalID: -1307852495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_134
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 847
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266e70c374c131846a10be2066bc5b6e
+      internalID: 468524117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_135
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 846
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b5c08c43ada504e8fe05ad1a4be64b
+      internalID: -2010897178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_136
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 846
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a87e5daa89fc5f4fa2a0aa5959b2c78
+      internalID: 312929621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_137
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 847
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9ecc64205900242a059cc63b5285a5
+      internalID: 1017039249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_138
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 846
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66ea65541c19af43bd98621079804f2
+      internalID: -1828661531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_139
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 847
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b294fc8e219316b48bddf6a04bae4dbf
+      internalID: 580709657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_140
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 846
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e074aa7e534ce4093fa4f1fd03061c
+      internalID: 586945697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_141
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 762
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e64be0a7823c14e9ea7d7e067b201e
+      internalID: -309962540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_142
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 761
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830f756ca9cf712449e2f1161ea1f153
+      internalID: -1169004649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_143
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 761
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f15d38f742524a4787cb4763c5bd740
+      internalID: 1120261255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_144
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 762
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b204985d89508469d1953e683e6ece
+      internalID: 2003758576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_145
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 761
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e14b4ff20fe0f34dae0b08cb9ca59ec
+      internalID: 140721776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_146
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 761
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ece09c270221a4dabf47f36f0242ec
+      internalID: 417408104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_147
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 761
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c9bbe3d0414864c91b397c33693ff0
+      internalID: -1937479421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_148
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 761
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236b676fc0b63d248b986239108eaf2f
+      internalID: 1590807807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_149
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 761
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b220fd47acb5fb4ba4bfe8b954bd8e4
+      internalID: 858214598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_150
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 761
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f438468d4de26354fbd5b3e5996f439f
+      internalID: -743214883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_151
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 761
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbea700b01009ca48bc05c22d6f03048
+      internalID: 1255529257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_152
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 761
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a266901c5bee03f42802e5b0c9ef89b2
+      internalID: -319582327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_153
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 761
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254b505c5b3fe6b4689ec739b175c886
+      internalID: -1719561078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_154
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 761
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebae97f2d12bff04eaba7b7154c86c35
+      internalID: 336714200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_155
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 762
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3111ddfc0b2b25b44b69bef5818b415c
+      internalID: -913820933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_156
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 761
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a032404bc6b1a41924c9d78a9eaacd
+      internalID: 2122135579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_157
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 761
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd42ad1e0b11d8458b11ddddaa70520
+      internalID: -62175585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_158
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 762
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7325c563f7c1424f9db11c32124350a
+      internalID: -228679295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_159
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 762
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69370b7647f47904aaca05cc07e45884
+      internalID: -96148520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_160
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 762
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d65e844ab854a240ba4a9a8d1da87cf
+      internalID: -318897068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_161
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 672
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24266ad1b249c7f41893fb2e2ff957ff
+      internalID: -480650626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_162
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 676
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb58abc3fa8638459c21bb8f7ea2bbb
+      internalID: -1041627348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_163
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 676
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d307e375e43ea04298fa74ad9ae81b6
+      internalID: 378992841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_164
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 672
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042307211b38365498a2ea1304c7c636
+      internalID: 1660092900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_165
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 676
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf131d838d6598046945ff446ab21e99
+      internalID: -629450257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_166
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 676
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9319150d2e5a7bb4b82b3432c741a277
+      internalID: -370594324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_167
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 676
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2c96472bf24ac4fb253bf3468c93d7
+      internalID: -384741465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_168
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 676
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fbdf1083762c7428a8373807c5b532
+      internalID: 1497960958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_169
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 676
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5a2176e25e53948951c22e1e9d4e2e
+      internalID: -2001203710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_170
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 676
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23943e2cc13d34041a435645cdaaeb12
+      internalID: 1349809263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_171
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 676
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bb4633e5f99c74a9658c1a8bf95603
+      internalID: 2126693626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_172
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 672
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae5346007a78fd429e7b8f0cf0615b9
+      internalID: 1231334960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_173
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 676
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab3de288a5ceac4cafd3fde561560ec
+      internalID: -418170017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_174
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 676
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd3c854487dcb348802642a659031e9
+      internalID: -287292430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_175
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 672
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c16f2899bab0f4aa4b2e0fc7d2b0a0
+      internalID: 6986736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_176
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 676
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c452db4daa6ba8a4abafa33ac89cb694
+      internalID: -2078724872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_177
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 676
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2914742fea5d85d4d9c38fa1deea5aa8
+      internalID: -2128382664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_178
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 672
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83eb2a6c5488ecb4da004b31bf7ceaa5
+      internalID: -740658113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_179
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 676
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aca12d98cf391e46b02c3cacac15020
+      internalID: -2034975286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_180
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 672
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c2fa241b9aa9d4da6f033f9431e792
+      internalID: -501095305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_181
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 591
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88abc93ec4e35464dafe8021627836e7
+      internalID: -1080897021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_182
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 590
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e065635ccf51bc4a9d58106fc1a91f1
+      internalID: 163242543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_183
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 591
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90e90ae2d0f8dc4d92ff802e1369b29
+      internalID: 1807763995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_184
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 591
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c14e32ab3d4ab4da895f258d6de33b
+      internalID: -459268700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_185
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 591
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3594aef726ba8142a84e54cce0d4f70
+      internalID: -1376907579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_186
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 591
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8ca0efe5daa304cbb1a20f9b0c2bdd
+      internalID: -107286999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_187
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 591
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6698d8a3d3eb34d98548146eb0a655
+      internalID: -82970230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_188
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 591
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a88d265c5abe394d8dfd3d6333822a1
+      internalID: -1049817730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_189
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 591
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b79018d15643ac4bb3e7ce0880ac38f
+      internalID: -1738490916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_190
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 588
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23325cd7c63e6c4ab6d78bd6833c0e9
+      internalID: 1755402956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_191
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 591
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfc4b73e3bc90a4caa9dadb6ae47315
+      internalID: -359621427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_192
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 591
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eeb5e91c5b3e0a40ad15c083f80c8b2
+      internalID: -1443087281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_193
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 588
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d9e18632446b446a6cb47ba8e27bc4
+      internalID: -217974326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_194
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 591
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c767c0680d83e44e9f088e1f5962bb8
+      internalID: -23903930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_195
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 588
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce89710bc3ad7dd4cbf3229b5ec8a19b
+      internalID: -1478751319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_196
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 591
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e110290b2880f54449b85940f93403fb
+      internalID: 208623039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_197
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 591
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62631348b321f64da1a54b1a2436af1
+      internalID: -927534240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_198
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 588
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3653b8795a7853f479a1b04ad3e17b6c
+      internalID: -1342783756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_199
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 588
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8eab8acc7ec4c44be533577371a6c5
+      internalID: 1970511826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_200
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 588
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cfde83e1ff6c6498b258d606c103c2
+      internalID: 748194767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_201
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 506
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4059a9c37aef094a82ce9a0e3439716
+      internalID: 1349093617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_202
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 504
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8e75fff73d8a5488542d675ee42287
+      internalID: 1141289462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_203
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 506
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33412b5af49e98e4885bde15281bbb2c
+      internalID: -478198094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_204
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 506
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b24f65497931d468da1a4a28eedd12
+      internalID: -1959339046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_205
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 504
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334413f681863094a8d6a1e367bb5029
+      internalID: 1345740227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_206
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 505
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdcff5552cac924bbc548cdba82397f
+      internalID: -1456995806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_207
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 506
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327fffd60cebdc04e9076be8a7cbd5e7
+      internalID: -1197774341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_208
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 504
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc6151a039136d4fafba4639e7940e2
+      internalID: 1506468863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_209
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 504
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d674b188e9b5a45bd31e4ecd3471cc
+      internalID: -1010094908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_210
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 504
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adee44458f9802488a0e5ecaf81b647
+      internalID: -2034341439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_211
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 504
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ace49413f1845c478792c02d14bc60a
+      internalID: 551790075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_212
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 504
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc36efa67961f041b8337eef8b52afd
+      internalID: -195354327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_213
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 504
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3000c33d0ace0fb4a99a63711a22dae9
+      internalID: 2049769836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_214
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 506
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dda2cd6374d41343b8af529e5b8b950
+      internalID: 1834319226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_215
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 504
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b6269dd95c4594fa745d57dae1aa45
+      internalID: -458062745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_216
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 506
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55a734f151d7c24a95fe40798e62942
+      internalID: 153353424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_217
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 506
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cddcaf144a5124299ab0dcb570147d
+      internalID: -1861183747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_218
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 506
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698acf2529619d9468cba95cadb3c594
+      internalID: -1708208248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_219
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 506
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dac5a018d400694c93c1dca3e1b54c3
+      internalID: 788209619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_220
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 506
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6500aad38f6c18a4b93c4994a336157a
+      internalID: 1603422667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_221
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 420
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88948863a00ec5e47bcbdc5186832fcf
+      internalID: 513844865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_222
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 420
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb5aea773c520940a1419786023c0fc
+      internalID: 1623722277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_223
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 420
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbf605fe44b5ca4680a8a52c69b483e
+      internalID: -639073481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_224
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 420
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0e2dd89de6b2447896bcda7011f880
+      internalID: -772985606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_225
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 420
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d3499ebc9a7fa41a0a51d8c6a2141b
+      internalID: 1178189780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_226
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 420
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02acd701272d514b8649f339616fa56
+      internalID: 1768045166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_227
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 420
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5c67e16e560204e9beb6067854a279
+      internalID: -983338920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_228
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 420
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389cabe8e508e864290d7d8b552e92b1
+      internalID: 1516545566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_229
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 420
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27aba4f3c8d130345b9e83ebe5dfa40c
+      internalID: 526722081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_230
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 420
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74bfb12bf8b6c141ba4537d464ce080
+      internalID: -1842364336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_231
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 420
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9958af2c76392c54689ae44fa46aeeff
+      internalID: 206919494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_232
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 420
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef536f1278a8d7d439a4f8ec5b1ace45
+      internalID: -273431469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_233
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 420
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c18e284e499b4449b5f4dba181d8f2
+      internalID: 96345718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_234
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 420
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d45593945789140ba496d852a164cf
+      internalID: -2123679584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_235
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 420
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4621fd69e698e488d7d5501eba5a8e
+      internalID: 1663725128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_236
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 420
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bf26b1fabffab4f9656f5710e71a41
+      internalID: -933949192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_237
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 420
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdb7912d8578404dbc6581743c46083
+      internalID: 37286655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_238
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 420
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a783087447c306b448780816cb8de18d
+      internalID: -2001173186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_239
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 420
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293e1181b8038e646b75a034a847bb74
+      internalID: 1469693845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_240
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 420
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7c09160817df9458ee24f2d364c2cb
+      internalID: 1861296105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_241
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 335
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479e353932c509f40836e54ff3bc1c84
+      internalID: -1171143712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_242
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 335
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a13a8251620e164083b6dfe28313652
+      internalID: 20242350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_243
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 335
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a68e5adab237246bc5dae19a9ad534
+      internalID: 1029543887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_244
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 335
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fecb5da4eb5f2479db2fb0be5a7cb1
+      internalID: -1317182208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_245
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 335
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7239696825676b42ab1066187a0335f
+      internalID: 6664518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_246
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 335
+        width: 72
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e42b2cee3a3ab4a8a75fa7293a6847
+      internalID: -343371237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_247
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 335
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbc591576995164ebfd4c8e54bf2a89
+      internalID: -1576370004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_248
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 335
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0937574e3a1bb2847ba28eb5f5b6bd4c
+      internalID: -1711222081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_249
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 335
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d9173580bdb274a9cdd3473414737e
+      internalID: 490547691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_250
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 335
+        width: 72
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d31ceed64c9ca4197a5dffb2a40d66
+      internalID: 137917402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_251
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 335
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d61304263f0faf4c8a2c6ef32a93856
+      internalID: 1643421544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_252
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 335
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf8327c5e77d174194f1c7fe4580b4f
+      internalID: 849225720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_253
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 335
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c2dadafe6916f4bba71e7425929509
+      internalID: 1544378963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_254
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 335
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ecb9732725f6049a5d151f039d5de2
+      internalID: 838460774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_255
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 335
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd4493b047f382488e9b2c57fe5f0cc
+      internalID: -796687518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_256
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 335
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47f04ea19e77584fbaad0a8292deaa6
+      internalID: 326992972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_257
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 335
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6464aa4d5cd5e4e46b80978c19062ae9
+      internalID: -2043585100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_258
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 335
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1aea217e7e046843b2e0384bf9d47ec
+      internalID: -1129679304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_259
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 335
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483f07b37f52e9b42ab099776aa7affb
+      internalID: -92214361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_260
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 335
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3227a557ea5a5b646b5b43b989267bc4
+      internalID: 1869394335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_261
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 250
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab2debf30f24eb48a3aa41d16bd6ba4
+      internalID: 281631648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_262
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 250
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23be04aa4e8edf943bc0d0121984f7b3
+      internalID: -2043151376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_263
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 250
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f0c080caf2d9841b8a54849035201e
+      internalID: -745045556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_264
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 250
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eafc4f3fadbcf4d912b070c02eaf55
+      internalID: -1151369076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_265
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 249
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9d803f16e15df43a4bb728a4011f67
+      internalID: -1354855222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_266
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 250
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2dc8a4854ccf44cbb6cd4bbad638a6
+      internalID: 1558615861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_267
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 246
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a98f12ea9028243a46421071e00792
+      internalID: -406220672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_268
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 250
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce363d0ff8ca7042b694281d81c209a
+      internalID: -908067011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_269
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 250
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1359bdde2ffb8a44db45fd98e35a0a42
+      internalID: -202772776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_270
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 250
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ad449b2fe01fb40aa47c65a67979d7
+      internalID: -2021092671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_271
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 250
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a8daa713049874db4c405f1480bf12
+      internalID: -1078135259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_272
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 250
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35ab89d6874645469dbfb595dd71c67
+      internalID: 565563423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_273
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 249
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f2d294066110b489155bc8fe342abb
+      internalID: -17686197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_274
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 250
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa067b89a6fda845a4ef38c96cdbfdf
+      internalID: 1331465225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_275
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 246
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d4713a746b31749a56b514a9c3e391
+      internalID: -1913155538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_276
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 250
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621cf6839668f8c4f8e0763e14250a19
+      internalID: 1948584581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_277
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 250
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6fbab214023b545ad85e157b18db8e
+      internalID: 520235976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_278
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 250
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5508dcabb0202241b963d92184eb71f
+      internalID: 305813664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_279
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 250
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dd228e79cc59740a485ce07955e62a
+      internalID: 452377686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_280
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 250
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9fdfeca8c497b41b91fac647a667d1
+      internalID: -348135341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_281
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 164
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c50d49e3e61b6498020b9c283a761d
+      internalID: -1412161821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_282
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 164
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04af0efc9bed1db41b7b1ea6919efba4
+      internalID: 960395933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_283
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 164
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e13322ee8819140895ac3dac5626df
+      internalID: 1044620731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_284
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 162
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b0e6d9efc780b40b08379fe2a7b374
+      internalID: 1085294956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_285
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 162
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a895e05385dfa408caab0cb7116ca5
+      internalID: 1284041099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_286
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 162
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06347832ce6f4044a758038e2cfc247
+      internalID: -980367686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_287
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 164
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed03b3c9f9436ac459edfd505f110276
+      internalID: 183231269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_288
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 164
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296f161f702724446b4f405c80bf737d
+      internalID: 518395963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_289
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 164
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9ee4d51d1e1b74ca94543ae12cf538
+      internalID: -1677717348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_290
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 164
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7154badecb0c4242a1647d0eed9c238
+      internalID: -899902063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_291
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 162
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083473e970d18ae45bc08f51d8cbade9
+      internalID: 2105403035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_292
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 164
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38e859f7a0f40c43a525f38eb981d98
+      internalID: 442246305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_293
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 164
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b116deef58bc45744a122afe5aef109f
+      internalID: 272468507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_294
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 162
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e61eee84213165448722d62b811292f
+      internalID: -146673297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_295
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 164
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535cabb97fdd00440bb9e89db5b10d7d
+      internalID: -1044845571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_296
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 164
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdcabf1241a56041819fdebdcc5e778
+      internalID: -795833278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_297
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 164
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49360dbd95b9a54a83b457ebdc3b853
+      internalID: 2106851789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_298
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 162
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acaf94101310254ea5cbd9295d8fe40
+      internalID: 1146974065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_299
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 164
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6375693e8944a04f86319d91d645ecd
+      internalID: 316218394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_300
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 162
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdf7c73663f24f449f3dddf4a4a6d23
+      internalID: -464840218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_301
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 79
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47522232c24c23b4094d355fd0e217d2
+      internalID: -1924781739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_302
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 79
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88136f0743a6924badaeab4040da940
+      internalID: -499254445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_303
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 78
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545cd5f088a76884e89a4812400f559e
+      internalID: -1080568773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_304
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 79
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c945c55a06b88c84da0d480544353d97
+      internalID: -244505031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_305
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 79
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3902ceba919b3984eab568f9603984e4
+      internalID: -2098633122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_306
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 79
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24da7e976ce2c8b48aaac45a702cbe49
+      internalID: -1077252237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_307
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 79
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64ec4953251e2444b729d0c7d535ab1
+      internalID: -819617549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_308
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 78
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4530b097c9616043b340a340fdbff23
+      internalID: -2122175505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_309
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 78
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafac41bdac96cf48b658073e764a52a
+      internalID: -1106889121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_310
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 79
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94d4e7baeb309745b91497120951fba
+      internalID: -1649259176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_311
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 79
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d19f732c487f54bab3a79f6ef87ec9
+      internalID: 2001230555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_312
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 79
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae87f47aeeab33043a5fd46a0828d283
+      internalID: 160953907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_313
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 78
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8227764347ef24e4abca793bafbc5708
+      internalID: -1916851068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_314
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 78
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c313882e4c91543b7e4614f44684c1
+      internalID: -319766257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_315
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 78
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c402e6f5a49ba04ca5d84613f651d81
+      internalID: -328753446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_316
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 79
+        width: 72
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199c2c76b4526a24696a634e8672fe1a
+      internalID: 1837454592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_317
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 79
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fb6f96a81e5e84cbcbff91198a7012
+      internalID: -1012072828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_318
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 78
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bfc2690fa593542aefa742a6fc8511
+      internalID: 2022778228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_319
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 79
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912eb057ab1b4f349b5840da4e4e6e16
+      internalID: -34332122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_320
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 79
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7347952aac4b6a44e986f72ffe26c7db
+      internalID: -2038904296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_321
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 12
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce0cb3264ab5864486b13596e7a4853
+      internalID: 2047857582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_322
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 16
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c3b2b13d3225a4c8010abfba1fc148
+      internalID: 51077938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_323
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 16
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3c0a95bd2fc30479d3c6d9c7f5abc5
+      internalID: -1439768461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_324
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 12
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8af59f14fcfa3749ba0643f9d8ebd89
+      internalID: 996838750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_325
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 12
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df09bb7d5b14cfd4091ecf2d8668754a
+      internalID: 1029822484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_326
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 12
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ed3227446902145864634bef460c0a
+      internalID: 655565385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_327
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 45
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c73d07cf4f34b24eb02346d2ce33572
+      internalID: -2047528555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_328
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 19
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d893f68459ab5c545a2ff2bc965c2c3c
+      internalID: 2119583612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_329
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c04ac1f3e705ab4597fc9588b238b85
+      internalID: -203709547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons basic vectors_330
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077678d33df6ec14988f3fea9bed7732
+      internalID: -2018775281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      icons basic vectors_0: -1713605007
+      icons basic vectors_1: -1203702446
+      icons basic vectors_10: -8363528
+      icons basic vectors_100: -1765332221
+      icons basic vectors_101: -49153164
+      icons basic vectors_102: 1453290592
+      icons basic vectors_103: -186062564
+      icons basic vectors_104: -790558869
+      icons basic vectors_105: 54325683
+      icons basic vectors_106: 499933816
+      icons basic vectors_107: 348287449
+      icons basic vectors_108: -1601516740
+      icons basic vectors_109: 1989840097
+      icons basic vectors_11: -1476605955
+      icons basic vectors_110: -800299936
+      icons basic vectors_111: -891568849
+      icons basic vectors_112: 774847010
+      icons basic vectors_113: -1992572359
+      icons basic vectors_114: 1435506760
+      icons basic vectors_115: 1632272897
+      icons basic vectors_116: -1769830056
+      icons basic vectors_117: -1934399380
+      icons basic vectors_118: 1035391807
+      icons basic vectors_119: 254474203
+      icons basic vectors_12: 689455388
+      icons basic vectors_120: 1656467271
+      icons basic vectors_121: 1625262380
+      icons basic vectors_122: -992168601
+      icons basic vectors_123: -730968938
+      icons basic vectors_124: 1300708154
+      icons basic vectors_125: 843801117
+      icons basic vectors_126: 1895015957
+      icons basic vectors_127: -1841043149
+      icons basic vectors_128: -1954390875
+      icons basic vectors_129: -1875461648
+      icons basic vectors_13: -1069411689
+      icons basic vectors_130: 110595183
+      icons basic vectors_131: 173754643
+      icons basic vectors_132: 28036951
+      icons basic vectors_133: -1307852495
+      icons basic vectors_134: 468524117
+      icons basic vectors_135: -2010897178
+      icons basic vectors_136: 312929621
+      icons basic vectors_137: 1017039249
+      icons basic vectors_138: -1828661531
+      icons basic vectors_139: 580709657
+      icons basic vectors_14: -1090347795
+      icons basic vectors_140: 586945697
+      icons basic vectors_141: -309962540
+      icons basic vectors_142: -1169004649
+      icons basic vectors_143: 1120261255
+      icons basic vectors_144: 2003758576
+      icons basic vectors_145: 140721776
+      icons basic vectors_146: 417408104
+      icons basic vectors_147: -1937479421
+      icons basic vectors_148: 1590807807
+      icons basic vectors_149: 858214598
+      icons basic vectors_15: -1141868335
+      icons basic vectors_150: -743214883
+      icons basic vectors_151: 1255529257
+      icons basic vectors_152: -319582327
+      icons basic vectors_153: -1719561078
+      icons basic vectors_154: 336714200
+      icons basic vectors_155: -913820933
+      icons basic vectors_156: 2122135579
+      icons basic vectors_157: -62175585
+      icons basic vectors_158: -228679295
+      icons basic vectors_159: -96148520
+      icons basic vectors_16: -139407505
+      icons basic vectors_160: -318897068
+      icons basic vectors_161: -480650626
+      icons basic vectors_162: -1041627348
+      icons basic vectors_163: 378992841
+      icons basic vectors_164: 1660092900
+      icons basic vectors_165: -629450257
+      icons basic vectors_166: -370594324
+      icons basic vectors_167: -384741465
+      icons basic vectors_168: 1497960958
+      icons basic vectors_169: -2001203710
+      icons basic vectors_17: 628528508
+      icons basic vectors_170: 1349809263
+      icons basic vectors_171: 2126693626
+      icons basic vectors_172: 1231334960
+      icons basic vectors_173: -418170017
+      icons basic vectors_174: -287292430
+      icons basic vectors_175: 6986736
+      icons basic vectors_176: -2078724872
+      icons basic vectors_177: -2128382664
+      icons basic vectors_178: -740658113
+      icons basic vectors_179: -2034975286
+      icons basic vectors_18: 417878454
+      icons basic vectors_180: -501095305
+      icons basic vectors_181: -1080897021
+      icons basic vectors_182: 163242543
+      icons basic vectors_183: 1807763995
+      icons basic vectors_184: -459268700
+      icons basic vectors_185: -1376907579
+      icons basic vectors_186: -107286999
+      icons basic vectors_187: -82970230
+      icons basic vectors_188: -1049817730
+      icons basic vectors_189: -1738490916
+      icons basic vectors_19: -2010244869
+      icons basic vectors_190: 1755402956
+      icons basic vectors_191: -359621427
+      icons basic vectors_192: -1443087281
+      icons basic vectors_193: -217974326
+      icons basic vectors_194: -23903930
+      icons basic vectors_195: -1478751319
+      icons basic vectors_196: 208623039
+      icons basic vectors_197: -927534240
+      icons basic vectors_198: -1342783756
+      icons basic vectors_199: 1970511826
+      icons basic vectors_2: 514766968
+      icons basic vectors_20: 1910116324
+      icons basic vectors_200: 748194767
+      icons basic vectors_201: 1349093617
+      icons basic vectors_202: 1141289462
+      icons basic vectors_203: -478198094
+      icons basic vectors_204: -1959339046
+      icons basic vectors_205: 1345740227
+      icons basic vectors_206: -1456995806
+      icons basic vectors_207: -1197774341
+      icons basic vectors_208: 1506468863
+      icons basic vectors_209: -1010094908
+      icons basic vectors_21: -1837580932
+      icons basic vectors_210: -2034341439
+      icons basic vectors_211: 551790075
+      icons basic vectors_212: -195354327
+      icons basic vectors_213: 2049769836
+      icons basic vectors_214: 1834319226
+      icons basic vectors_215: -458062745
+      icons basic vectors_216: 153353424
+      icons basic vectors_217: -1861183747
+      icons basic vectors_218: -1708208248
+      icons basic vectors_219: 788209619
+      icons basic vectors_22: 918287489
+      icons basic vectors_220: 1603422667
+      icons basic vectors_221: 513844865
+      icons basic vectors_222: 1623722277
+      icons basic vectors_223: -639073481
+      icons basic vectors_224: -772985606
+      icons basic vectors_225: 1178189780
+      icons basic vectors_226: 1768045166
+      icons basic vectors_227: -983338920
+      icons basic vectors_228: 1516545566
+      icons basic vectors_229: 526722081
+      icons basic vectors_23: -440077901
+      icons basic vectors_230: -1842364336
+      icons basic vectors_231: 206919494
+      icons basic vectors_232: -273431469
+      icons basic vectors_233: 96345718
+      icons basic vectors_234: -2123679584
+      icons basic vectors_235: 1663725128
+      icons basic vectors_236: -933949192
+      icons basic vectors_237: 37286655
+      icons basic vectors_238: -2001173186
+      icons basic vectors_239: 1469693845
+      icons basic vectors_24: -737248275
+      icons basic vectors_240: 1861296105
+      icons basic vectors_241: -1171143712
+      icons basic vectors_242: 20242350
+      icons basic vectors_243: 1029543887
+      icons basic vectors_244: -1317182208
+      icons basic vectors_245: 6664518
+      icons basic vectors_246: -343371237
+      icons basic vectors_247: -1576370004
+      icons basic vectors_248: -1711222081
+      icons basic vectors_249: 490547691
+      icons basic vectors_25: -1706177145
+      icons basic vectors_250: 137917402
+      icons basic vectors_251: 1643421544
+      icons basic vectors_252: 849225720
+      icons basic vectors_253: 1544378963
+      icons basic vectors_254: 838460774
+      icons basic vectors_255: -796687518
+      icons basic vectors_256: 326992972
+      icons basic vectors_257: -2043585100
+      icons basic vectors_258: -1129679304
+      icons basic vectors_259: -92214361
+      icons basic vectors_26: -1063162237
+      icons basic vectors_260: 1869394335
+      icons basic vectors_261: 281631648
+      icons basic vectors_262: -2043151376
+      icons basic vectors_263: -745045556
+      icons basic vectors_264: -1151369076
+      icons basic vectors_265: -1354855222
+      icons basic vectors_266: 1558615861
+      icons basic vectors_267: -406220672
+      icons basic vectors_268: -908067011
+      icons basic vectors_269: -202772776
+      icons basic vectors_27: -2046612858
+      icons basic vectors_270: -2021092671
+      icons basic vectors_271: -1078135259
+      icons basic vectors_272: 565563423
+      icons basic vectors_273: -17686197
+      icons basic vectors_274: 1331465225
+      icons basic vectors_275: -1913155538
+      icons basic vectors_276: 1948584581
+      icons basic vectors_277: 520235976
+      icons basic vectors_278: 305813664
+      icons basic vectors_279: 452377686
+      icons basic vectors_28: 1303070317
+      icons basic vectors_280: -348135341
+      icons basic vectors_281: -1412161821
+      icons basic vectors_282: 960395933
+      icons basic vectors_283: 1044620731
+      icons basic vectors_284: 1085294956
+      icons basic vectors_285: 1284041099
+      icons basic vectors_286: -980367686
+      icons basic vectors_287: 183231269
+      icons basic vectors_288: 518395963
+      icons basic vectors_289: -1677717348
+      icons basic vectors_29: -1323702375
+      icons basic vectors_290: -899902063
+      icons basic vectors_291: 2105403035
+      icons basic vectors_292: 442246305
+      icons basic vectors_293: 272468507
+      icons basic vectors_294: -146673297
+      icons basic vectors_295: -1044845571
+      icons basic vectors_296: -795833278
+      icons basic vectors_297: 2106851789
+      icons basic vectors_298: 1146974065
+      icons basic vectors_299: 316218394
+      icons basic vectors_3: 1448090874
+      icons basic vectors_30: 670887971
+      icons basic vectors_300: -464840218
+      icons basic vectors_301: -1924781739
+      icons basic vectors_302: -499254445
+      icons basic vectors_303: -1080568773
+      icons basic vectors_304: -244505031
+      icons basic vectors_305: -2098633122
+      icons basic vectors_306: -1077252237
+      icons basic vectors_307: -819617549
+      icons basic vectors_308: -2122175505
+      icons basic vectors_309: -1106889121
+      icons basic vectors_31: -332804713
+      icons basic vectors_310: -1649259176
+      icons basic vectors_311: 2001230555
+      icons basic vectors_312: 160953907
+      icons basic vectors_313: -1916851068
+      icons basic vectors_314: -319766257
+      icons basic vectors_315: -328753446
+      icons basic vectors_316: 1837454592
+      icons basic vectors_317: -1012072828
+      icons basic vectors_318: 2022778228
+      icons basic vectors_319: -34332122
+      icons basic vectors_32: 497873617
+      icons basic vectors_320: -2038904296
+      icons basic vectors_321: 2047857582
+      icons basic vectors_322: 51077938
+      icons basic vectors_323: -1439768461
+      icons basic vectors_324: 996838750
+      icons basic vectors_325: 1029822484
+      icons basic vectors_326: 655565385
+      icons basic vectors_327: -2047528555
+      icons basic vectors_328: 2119583612
+      icons basic vectors_329: -203709547
+      icons basic vectors_33: 1963476393
+      icons basic vectors_330: -2018775281
+      icons basic vectors_34: -2002235902
+      icons basic vectors_35: -7998653
+      icons basic vectors_36: 545725369
+      icons basic vectors_37: 1261337405
+      icons basic vectors_38: -1159662408
+      icons basic vectors_39: -1569388744
+      icons basic vectors_4: 1293010353
+      icons basic vectors_40: 372207098
+      icons basic vectors_41: -1529844782
+      icons basic vectors_42: 1892989626
+      icons basic vectors_43: 2107015980
+      icons basic vectors_44: 637799717
+      icons basic vectors_45: 1431022403
+      icons basic vectors_46: 1740274773
+      icons basic vectors_47: 2092922511
+      icons basic vectors_48: 29199678
+      icons basic vectors_49: -1486160891
+      icons basic vectors_5: -183144467
+      icons basic vectors_50: -1138744248
+      icons basic vectors_51: -1576252281
+      icons basic vectors_52: -2030047967
+      icons basic vectors_53: 273367947
+      icons basic vectors_54: -1102968230
+      icons basic vectors_55: 1836558494
+      icons basic vectors_56: 305298308
+      icons basic vectors_57: -133719512
+      icons basic vectors_58: 2123513365
+      icons basic vectors_59: -863678221
+      icons basic vectors_6: 812662054
+      icons basic vectors_60: 691900579
+      icons basic vectors_61: 1898312006
+      icons basic vectors_62: -975466704
+      icons basic vectors_63: 989346016
+      icons basic vectors_64: -107286116
+      icons basic vectors_65: 915918154
+      icons basic vectors_66: -108015371
+      icons basic vectors_67: 824769895
+      icons basic vectors_68: 339045501
+      icons basic vectors_69: -213493747
+      icons basic vectors_7: 1106062197
+      icons basic vectors_70: 492600526
+      icons basic vectors_71: -1272849591
+      icons basic vectors_72: -1345702827
+      icons basic vectors_73: -653876230
+      icons basic vectors_74: -857238291
+      icons basic vectors_75: -1912867821
+      icons basic vectors_76: 1977405462
+      icons basic vectors_77: -793229927
+      icons basic vectors_78: -1712400555
+      icons basic vectors_79: -785044032
+      icons basic vectors_8: -255395566
+      icons basic vectors_80: 1330480319
+      icons basic vectors_81: 534801192
+      icons basic vectors_82: -448547339
+      icons basic vectors_83: 692151110
+      icons basic vectors_84: -1712365424
+      icons basic vectors_85: -503244806
+      icons basic vectors_86: 208485718
+      icons basic vectors_87: -860457571
+      icons basic vectors_88: 2054209406
+      icons basic vectors_89: 2077610909
+      icons basic vectors_9: -1683091042
+      icons basic vectors_90: -752983198
+      icons basic vectors_91: 265617898
+      icons basic vectors_92: -1365091688
+      icons basic vectors_93: -531693194
+      icons basic vectors_94: 1501980042
+      icons basic vectors_95: -1702777624
+      icons basic vectors_96: 478143887
+      icons basic vectors_97: 2063676844
+      icons basic vectors_98: -1423736970
+      icons basic vectors_99: 473088046
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -49,6 +49,10 @@ public class TurretManager : MonoBehaviour
     [Header("Script Reference")]
     private ScoreManager scoreManager;
 
+    [Header("SFX")]
+    [SerializeField] private AudioSource turretShootSFX;
+    [SerializeField] private AudioSource turretUpgradeSFX;
+    [SerializeField] private AudioSource miniTankSpawnSFX;
 
     public void Start()
     {
@@ -69,6 +73,10 @@ public class TurretManager : MonoBehaviour
         cooldownSlider.maxValue = cooldownTime;
         scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
         tankUpgradeText.text = tankUpgradeCost.ToString();
+
+        turretShootSFX = GameObject.Find("TurretShootSFX").GetComponent<AudioSource>();
+        turretUpgradeSFX = GameObject.Find("TurretUpgradeSFX").GetComponent<AudioSource>();
+        miniTankSpawnSFX = GameObject.Find("MiniTankSpawnSFX").GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -85,6 +93,7 @@ public class TurretManager : MonoBehaviour
         {
             //Debug.Log("Firing Cannon");
             GameObject shot = Instantiate(bulletPrefab) as GameObject;
+            turretShootSFX.Play();
 
             if (swapPoint)
             {
@@ -107,6 +116,7 @@ public class TurretManager : MonoBehaviour
     {
         if (scoreManager.currentCredit >= upgradeCost)
         {
+            turretUpgradeSFX.Play();
             turretLevel++;
             scoreManager.currentCredit -= upgradeCost;
         }
@@ -180,6 +190,7 @@ public class TurretManager : MonoBehaviour
     {
         if (scoreManager.currentCredit >= tankUpgradeCost)
         {
+            miniTankSpawnSFX.Play();
             scoreManager.currentCredit -= tankUpgradeCost;
             GameObject spawn = Instantiate(tankPrefab) as GameObject;
             spawn.transform.position = spawnTransform.position;

@@ -24,6 +24,7 @@ public class WaveManager : MonoBehaviour
     [SerializeField] private int spawnNumber;
     [SerializeField] private float spawnCooldown;
     [SerializeField] private float spawnCooldownCount;
+    private int lastLane = 0;
 
     [Header("Timer")]
     public Timer countdownTimer;
@@ -65,8 +66,16 @@ public class WaveManager : MonoBehaviour
 
         if ((spawnCooldownCount <= 0) && (spawnNumber <= spawnCap))
         {
-            //picks a spawn line at random
-            int spawnLocation = Mathf.RoundToInt(Random.Range(1, 5));
+            int spawnLocation;
+
+            //picks a spawn line at random, without spawning in the same lane twice in a row
+            do
+            {
+                spawnLocation = Mathf.RoundToInt(Random.Range(1, 5));
+            } while (spawnLocation == lastLane);
+
+            lastLane = spawnLocation;
+
             GameObject spawn = Instantiate(tankSpawns[(Mathf.RoundToInt(Random.Range(0, waveNumber)))]) as GameObject;
             spawnNumber++;
 

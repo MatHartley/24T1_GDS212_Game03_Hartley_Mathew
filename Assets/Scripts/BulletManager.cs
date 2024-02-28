@@ -13,6 +13,9 @@ public class BulletManager : MonoBehaviour
     [SerializeField] private Animator animator;
     private float timeToDeath = 1f;
 
+    [Header("SFX")]
+    [SerializeField] private AudioSource bulletPopSFX;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         DealDamage(collision.gameObject);
@@ -47,12 +50,15 @@ public class BulletManager : MonoBehaviour
     {
         animator.SetBool("isDead", false);
         animator.SetBool("inFlight", true);
+
+        bulletPopSFX = GameObject.Find("BulletPopSFX").GetComponent<AudioSource>();
     }
 
     private void Update()
     {
         if (bulletHealth <= 0)
         {
+            bulletPopSFX.Play();
             animator.SetBool("isDead", true);
             timeToDeath -= Time.deltaTime;
             GetComponent<Collider2D>().enabled = false;
