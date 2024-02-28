@@ -25,6 +25,8 @@ public class GameController : MonoBehaviour
 
     [Header("Internals")]
     private bool isPaused = false;
+    private bool waitToPause;
+    private float waitTime = 1f;
 
     private void Start()
     {
@@ -40,14 +42,21 @@ public class GameController : MonoBehaviour
         {
             endCooldownCount -= Time.unscaledDeltaTime;
         }
+        if (waitToPause)
+        {
+            waitTime -= Time.deltaTime;
+        }
     }
 
     public void GoodEnd()
     {
-        Pause();
-        countdownStart = true;
-        gameBGM.Stop();
-
+        waitToPause = true;
+        if (waitTime <= 0)
+        {
+            Pause();
+            countdownStart = true;
+            gameBGM.Stop();
+        }
         if (endCooldownCount <= 0)
         {
             goodEndPanel.SetActive(true);
@@ -57,10 +66,13 @@ public class GameController : MonoBehaviour
 
     public void BadEnd()
     {
-        Pause();
-        countdownStart = true;
-        gameBGM.Stop();
-
+        waitToPause = true;
+        if (waitTime <= 0)
+        {
+            Pause();
+            countdownStart = true;
+            gameBGM.Stop();
+        }
         if (endCooldownCount <= 0)
         {
             badEndPanel.SetActive(true);

@@ -3114,7 +3114,6 @@ MonoBehaviour:
   cooldownSliderHolder: {fileID: 206357003}
   wallHealth: 10
   gameController: {fileID: 397044050}
-  turretDeathSFX: {fileID: 1725624713}
 --- !u!114 &397044050
 MonoBehaviour:
   m_ObjectHideFlags: 0

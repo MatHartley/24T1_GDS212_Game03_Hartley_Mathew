@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 6239179615285578003}
   - component: {fileID: 2960532776024222365}
   - component: {fileID: -4057883145736692085}
-  - component: {fileID: 4040101752683209425}
+  - component: {fileID: -8701763093498299969}
   m_Layer: 0
   m_Name: Cannon01
   m_TagString: Player
@@ -168,11 +168,12 @@ MonoBehaviour:
   tankUpgradeCost: 10
   tankPrefab: {fileID: 1948295081353905710, guid: 1211d13a2a793694a914a6a775e28400, type: 3}
   spawnTransform: {fileID: 7068928071710407173}
-  animator: {fileID: 0}
+  animator: {fileID: -8701763093498299969}
   turretShootSFX: {fileID: 0}
   turretUpgradeSFX: {fileID: 0}
   miniTankSpawnSFX: {fileID: 0}
---- !u!95 &4040101752683209425
+  turretDeathSFX: {fileID: 0}
+--- !u!95 &-8701763093498299969
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -180,7 +181,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3312065043287761024}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 5e0c56323efdcc0489e5aad38ef4446a, type: 2}
   m_CullingMode: 0
