@@ -116,13 +116,13 @@ public class TankManager : MonoBehaviour
     {
         if (collision.tag == "Tank")
         {
-            if (collision.GetComponent<TankManager>().tankSpeed < tankSpeed)
+            if (collision.GetComponent<TankManager>().tankSpeed <= tankSpeed)
             {
                 tankSpeed = collision.GetComponent<TankManager>().tankSpeed;
             }
-            else if (collision.GetComponent<TankManager>().tankSpeed == tankSpeed)
+            if (collision.attachedRigidbody.constraints == RigidbodyConstraints2D.FreezePositionY)
             {
-                rigidBody.constraints = RigidbodyConstraints2D.FreezePositionY;
+                tankSpeed = 0;
             }
         }
         else if (collision.tag == "TankStopper")

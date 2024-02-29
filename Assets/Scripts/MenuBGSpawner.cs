@@ -19,6 +19,7 @@ public class MenuBGSpawner : MonoBehaviour
     void Start()
     {
         spawnCooldownCount = initialCooldown; //done to make the first spawn tie in with the base drop on the menu bgm :)
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame
