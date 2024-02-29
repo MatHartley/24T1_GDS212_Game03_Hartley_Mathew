@@ -31,6 +31,7 @@ public class WaveManager : MonoBehaviour
 
     [Header("Game Controller")]
     public GameController gameController;
+    private bool endGameCalled = false;
 
     [Header("SFX")]
     [SerializeField] private AudioSource waveAlarmSFX;
@@ -124,9 +125,10 @@ public class WaveManager : MonoBehaviour
                 spawnCooldown = spawnCooldown * 0.9f;
                 spawnCap = Mathf.RoundToInt((waveNumber * 5) / 2);
             }
-            else
+            else if (!endGameCalled)
             {
                 gameController.GoodEnd();
+                endGameCalled = true;
             }
         }
     }

@@ -14,16 +14,18 @@ public class WallManager : MonoBehaviour
 
     [Header("Game Controller")]
     public GameController gameController;
+    private bool endGameCalled = false;
 
     // Update is called once per frame
     void Update()
     {
         healthSlider.value = wallHealth;
 
-        if (wallHealth <= 0)
+        if (wallHealth <= 0 && !endGameCalled)
         {
             cooldownSliderHolder.SetActive(false);
             gameController.BadEnd();
+            endGameCalled = true;
         }
     }
 }

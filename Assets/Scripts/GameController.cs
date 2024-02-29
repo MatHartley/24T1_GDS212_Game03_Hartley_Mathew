@@ -14,74 +14,55 @@ public class GameController : MonoBehaviour
 
     [Header("Countdowns")]
     [SerializeField] private float endCooldown;
-    [SerializeField] private float endCooldownCount;
-    private bool countdownStart;
 
     [Header("Script References")]
     public ScoreManager scoreManager;
+    [SerializeField] private HighscoreTable highscoreTable;
 
-    [Header("BGM")]
+[Header("BGM")]
     [SerializeField] private AudioSource gameBGM;
 
     [Header("Internals")]
     private bool isPaused = false;
-    private bool waitToPause;
     private float waitTime = 1f;
 
     private void Start()
     {
         TogglePause();
         tutorialPanel.SetActive(true);
-
-        endCooldownCount = endCooldown;
-    }
-
-    private void Update()
-    {
-        if (countdownStart)
-        {
-            endCooldownCount -= Time.unscaledDeltaTime;
-        }
-        if (waitToPause)
-        {
-            waitTime -= Time.deltaTime;
-        }
     }
 
     public void GoodEnd()
     {
-        waitToPause = true;
-        if (waitTime <= 0)
-        {
-            Pause();
-            countdownStart = true;
-            gameBGM.Stop();
-        }
-        if (endCooldownCount <= 0)
-        {
-            scoreManager.AddToHighscores();
-            goodEndPanel.SetActive(true);
-            goodFinalScore.text = scoreManager.currentScore.ToString();
-        }
+        StartCoroutine(GoodEndCoroutine());
     }
-
+    
     public void BadEnd()
     {
-        waitToPause = true;
-        if (waitTime <= 0)
-        {
-            Pause();
-            countdownStart = true;
-            gameBGM.Stop();
-        }
-        if (endCooldownCount <= 0)
-        {
-            scoreManager.AddToHighscores();
-            badEndPanel.SetActive(true);
-            badFinalScore.text = scoreManager.currentScore.ToString();
-        }
+        StartCoroutine(BadEndCoroutine());
     }
 
+    IEnumerator GoodEndCoroutine()
+    {
+        yield return new WaitForSecondsRealtime(waitTime);
+        Pause();
+        yield return new WaitForSecondsRealtime(endCooldown);
+        gameBGM.Stop();
+        highscoreTable.AddHighscoreEntry(scoreManager.currentScore);
+        goodEndPanel.SetActive(true);
+        goodFinalScore.text = scoreManager.currentScore.ToString();
+    }
+
+    IEnumerator BadEndCoroutine()
+    {
+        yield return new WaitForSecondsRealtime(waitTime);
+        Pause();
+        yield return new WaitForSecondsRealtime(endCooldown);
+        gameBGM.Stop();
+        highscoreTable.AddHighscoreEntry(scoreManager.currentScore);
+        badEndPanel.SetActive(true);
+        badFinalScore.text = scoreManager.currentScore.ToString();
+    }
     public void TogglePause()
     {
         if (!isPaused)

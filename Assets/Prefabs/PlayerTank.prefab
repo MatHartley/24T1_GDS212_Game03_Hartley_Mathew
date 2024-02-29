@@ -117,6 +117,9 @@ MonoBehaviour:
   tankMask:
     serializedVersion: 2
     m_Bits: 0
+  tankMoveSFX: {fileID: -3764679453124388764}
+  tankShootSFX: {fileID: 0}
+  tankDeathSFX: {fileID: 0}
 --- !u!50 &-4449679733158982039
 Rigidbody2D:
   serializedVersion: 4
@@ -220,7 +223,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7bea3e761ae43ed4789dcd65cf942ae7, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

@@ -42,10 +42,4 @@ public class ScoreManager : MonoBehaviour
     {
         currentCredit += addition;
     }
-
-    public void AddToHighscores()
-    {
-        highscoreTable.AddHighscoreEntry(currentScore);
-    }
-
 }

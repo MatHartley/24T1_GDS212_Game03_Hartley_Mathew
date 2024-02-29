@@ -5,18 +5,17 @@ using TMPro;
 
 public class HighscoreTable : MonoBehaviour
 {
-    private Transform entryContainer;
-    private Transform entryTemplate;
+    [SerializeField] private Transform entryContainer;
+    [SerializeField] private Transform entryTemplate;
+    private List<HighscoreEntry> highscoreEntryList;
     private List<Transform> highscoreEntryTransformList;
 
     private void Awake()
     {
-        entryContainer = transform.Find("HighscoreEntryContainer");
-        entryTemplate = entryContainer.Find("HighscoreEntryTemplate");
+        AddHighscoreEntry(0);
 
         entryTemplate.gameObject.SetActive(false);
 
-        //load the json string
         string jsonString = PlayerPrefs.GetString("highscoreTable");
         Highscores highscores = JsonUtility.FromJson<Highscores>(jsonString);
 
@@ -32,6 +31,15 @@ public class HighscoreTable : MonoBehaviour
                     highscores.highscoreEntryList[i] = highscores.highscoreEntryList[j];
                     highscores.highscoreEntryList[j] = tmp;
                 }
+            }
+        }
+
+        //limit the list to 10 entries
+        if (highscores.highscoreEntryList.Count > 10)
+        {
+            for (int h = highscores.highscoreEntryList.Count; h > 10; h--)
+            {
+                highscores.highscoreEntryList.RemoveAt(10);
             }
         }
 
@@ -76,45 +84,65 @@ public class HighscoreTable : MonoBehaviour
 
         entryTransform.Find("ScoreText").GetComponent<TextMeshProUGUI>().text = score.ToString();
 
-        //Highlight the highest score
+        //highlight the top ranked score
         if (rank == 1)
         {
             entryTransform.Find("PositionText").GetComponent<TextMeshProUGUI>().color = Color.yellow;
             entryTransform.Find("ScoreText").GetComponent<TextMeshProUGUI>().color = Color.yellow;
         }
 
-        transformList.Add(entryTransform);
+            transformList.Add(entryTransform);
     }
 
-    public void AddHighscoreEntry(int score)
+    public void AddHighscoreEntry(int score) 
     {
-        //Create highscore entry
+        //create entry
         HighscoreEntry highscoreEntry = new HighscoreEntry { score = score };
 
-        //Load saved highscores
+        //load highscore list from json
         string jsonString = PlayerPrefs.GetString("highscoreTable");
         Highscores highscores = JsonUtility.FromJson<Highscores>(jsonString);
 
-        //Add new highscore to list
+        //add the new item
         highscores.highscoreEntryList.Add(highscoreEntry);
 
-        //Save updated list
+        //bubble sort the list
+        for (int i = 0; i < highscores.highscoreEntryList.Count; i++)
+        {
+            for (int j = i + 1; j < highscores.highscoreEntryList.Count; j++)
+            {
+                if (highscores.highscoreEntryList[j].score > highscores.highscoreEntryList[i].score)
+                {
+                    //swap entries
+                    HighscoreEntry tmp = highscores.highscoreEntryList[i];
+                    highscores.highscoreEntryList[i] = highscores.highscoreEntryList[j];
+                    highscores.highscoreEntryList[j] = tmp;
+                }
+            }
+        }
+
+        //limit the list to 10 entries
+        if (highscores.highscoreEntryList.Count > 10)
+        {
+            for (int h = highscores.highscoreEntryList.Count; h > 10; h--)
+            {
+                highscores.highscoreEntryList.RemoveAt(10);
+            }
+        }
+
+        //save the updated list
         string json = JsonUtility.ToJson(highscores);
         PlayerPrefs.SetString("highscoreTable", json);
         PlayerPrefs.Save();
     }
 
-
-    /// <summary>
-    /// A class for creating an object containing the highscore list for json
-    /// </summary>
     private class Highscores
     {
         public List<HighscoreEntry> highscoreEntryList;
     }
 
     /// <summary>
-    /// Rerpresents a single Highscore entry
+    /// Represents a single highscore entry
     /// </summary>
     [System.Serializable]
     private class HighscoreEntry
