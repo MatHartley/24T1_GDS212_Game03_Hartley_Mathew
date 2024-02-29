@@ -11840,7 +11840,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Here are your credits, it also goes up as you destroy enemy tanks
+  m_text: Here is your credit, it also goes up as you destroy enemy tanks
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b30babe3e0e979d469bfdd8da65070cd, type: 2}
   m_sharedMaterial: {fileID: -8054965855316089614, guid: b30babe3e0e979d469bfdd8da65070cd, type: 2}
@@ -14693,7 +14693,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1423019604
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15594,6 +15594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentScore: 0
+  bonusScore: 0
   currentCredit: 0
   scoreText: {fileID: 46994677}
   creditText: {fileID: 1312806976}

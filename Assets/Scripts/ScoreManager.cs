@@ -7,6 +7,7 @@ public class ScoreManager : MonoBehaviour
 {
     [Header("Score")]
     public int currentScore;
+    public int bonusScore; 
 
     [Header("Credit")]
     public int currentCredit;
@@ -38,5 +39,6 @@ public class ScoreManager : MonoBehaviour
     public void UpdateCredit(int addition)
     {
         currentCredit += addition;
+        bonusScore = 100 * currentCredit;
     }
 }

@@ -60,7 +60,7 @@ public class GameController : MonoBehaviour
         if (endCooldownCount <= 0)
         {
             goodEndPanel.SetActive(true);
-            goodFinalScore.text = scoreManager.currentScore.ToString();
+            goodFinalScore.text = (scoreManager.currentScore + scoreManager.bonusScore).ToString();
         }
     }
 
