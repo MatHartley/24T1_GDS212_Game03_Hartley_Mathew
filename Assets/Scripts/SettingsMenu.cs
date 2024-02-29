@@ -30,8 +30,15 @@ public class SettingsMenu : MonoBehaviour
         PlayerPrefs.Save();
     }
 
-    public void Mute()
+    public void Mute(bool muted)
     {
-        audioMixer.SetFloat("masterVolume", -80);
+        if (muted)
+        {
+            AudioListener.volume = 0;
+        }
+        else
+        {
+            AudioListener.volume = 1;
+        }
     }
 }
