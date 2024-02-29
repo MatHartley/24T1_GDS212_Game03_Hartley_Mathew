@@ -12,8 +12,11 @@ public class ScoreManager : MonoBehaviour
     public int currentCredit;
 
     [Header("UI References")]
-    public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI creditText;
+    [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private TextMeshProUGUI creditText;
+
+    [Header("Script References")]
+    [SerializeField] private HighscoreTable highscoreTable;
 
     // Start is called before the first frame update
     void Start()
@@ -39,4 +42,10 @@ public class ScoreManager : MonoBehaviour
     {
         currentCredit += addition;
     }
+
+    public void AddToHighscores()
+    {
+        highscoreTable.AddHighscoreEntry(currentScore);
+    }
+
 }

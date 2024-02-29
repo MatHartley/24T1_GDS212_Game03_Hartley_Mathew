@@ -59,6 +59,7 @@ public class GameController : MonoBehaviour
         }
         if (endCooldownCount <= 0)
         {
+            scoreManager.AddToHighscores();
             goodEndPanel.SetActive(true);
             goodFinalScore.text = scoreManager.currentScore.ToString();
         }
@@ -75,6 +76,7 @@ public class GameController : MonoBehaviour
         }
         if (endCooldownCount <= 0)
         {
+            scoreManager.AddToHighscores();
             badEndPanel.SetActive(true);
             badFinalScore.text = scoreManager.currentScore.ToString();
         }
